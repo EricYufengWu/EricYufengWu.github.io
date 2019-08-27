@@ -1,9 +1,42 @@
 /* showcase */
 #showcase{
   box-sizing: border-box;
-  max-width: 60%;
+  max-width: 100%;
   margin:auto;
+  }
+
+@media screen 
+  and (min-width: 1000px) { 
+  /* Desctiption of each image*/
+  .imgcontent{
+    margin: 0 auto;
+    position: Absolute; /* Position the background text */
+    top: 60%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
 }
+
+@media screen 
+  and (max-width: 1001px) { 
+  .imgcontent{
+    margin: 0 auto;
+    top: 0%; /* At the bottom. Use top:0 to append it to the top */
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 5%; /* Some padding */
+  }
+  .imgcontent, .h1, .p{
+      font-size:75%;
+  }
+}
+
 
 /* Hide the images by default */
 .mySlides {
@@ -74,16 +107,6 @@
   opacity: 1;
 }
 
-/* Desctiption of each image*/
-.imgcontent{
-  margin: 0 auto;
-  position: Absolute; /* Position the background text */
-  top: 60%; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-}
+
 
 

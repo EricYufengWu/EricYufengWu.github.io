@@ -2,11 +2,27 @@
   margin-top:20px;
 }
 
-#boxes .box{
-  float:left;
-  text-align: center;
-  width:25%;
-  padding:30px;
+@media screen 
+  and (min-width: 800px) { 
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:27%;
+    padding:3%;
+  }
+}
+
+@media screen 
+  and (max-width: 801px) { 
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:60%;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:10%;
+    padding-bottom:10%;
+  }
 }
 
 #boxes .box img{
