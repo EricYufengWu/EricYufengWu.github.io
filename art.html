@@ -9,7 +9,7 @@
   <meta name="descripton" content="Yufeng (Eric) Wu's personal website">
   <meta name="keywords" content="portfolio, mechanical engineering">
   <link rel="stylesheet" type="text/css" href="./css/default_style.css">
-
+  <link rel="stylesheet" type="text/css" href="./css/projectprofile.css">
 </head>
     
 <body>
@@ -23,8 +23,8 @@
           <li><a href="index.html">About</a></li>
           <li><a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="blank">Resume</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li class="current"><a href="research.html">Research</a></li>
-          <li><a href="art.html">Art &amp; Design</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li class="current"><a href="art.html">Art &amp; Design</a></li>
           <li><a href="cardistry.html">Cardistry</a></li>
         </ul>
       </nav>
@@ -32,12 +32,27 @@
   </header>
   
   
+<!-- project directory -->
+  <div id="projectDirectory">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a onclick="changePages(1)">Digital Fabrication</a></li>
+          <li><a onclick="changePages(2)">Graphic Design</a></li>
+          <li><a onclick="changePages(3)">Drawing/Calligraphy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
   
   <footer>
     <div class="container">
       <p class = contact>Contact Me:<br> yufeng.wu@tufts.edu</p>
     </div>
   </footer>
+  
+  <script type="text/javascript" src="./javascript/project.js"></script>
   
 </body>
     

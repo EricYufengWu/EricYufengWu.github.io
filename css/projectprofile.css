@@ -2,6 +2,13 @@
   margin-top:20px;
 }
 
+#projectDirectory{
+  background:#808080;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  text-align:center;
+}
+
 @media screen 
   and (min-width: 800px) { 
   .itembox{
@@ -45,3 +52,23 @@
   text-align: center;
   padding: 2% 4%;
 }
+
+#projectDirectory li{
+  cursor: pointer;
+  float:center;
+  display:inline;
+  padding:1% 2% 1% 2%;
+}
+
+#projectDirectory li:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+#projectDirectory a{
+  color:#ffffff;
+  text-decoration: none!important;
+  font-size:16px;
+}
+
+
