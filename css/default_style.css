@@ -10,6 +10,10 @@ ul{
   padding:0;
 }
 
+a{
+	text-decoration: none;
+}
+
 
 @media screen 
   and (min-width: 1081px) { 
