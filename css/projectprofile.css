@@ -13,9 +13,13 @@
   and (min-width: 800px) { 
   .itembox{
     float:left;
-    width:30%;
-    padding:1.3333333333333%;
+    width:31.3%;
+    padding:1%;
   }
+	.itembox img{
+		height: 160px;
+  	object-fit: cover;
+	}
   #items .itemprofile{
     text-align: center;
     width:100%;
@@ -32,6 +36,10 @@
     width:40%;
     padding:2.5% 5%;
   }
+	.itembox img{
+		height: 140px;
+  	object-fit: cover;
+	}
   #items .itemprofile{
     float:left;
     text-align: center;
@@ -48,14 +56,26 @@
   height:auto;
 }
 
-.title{
-  text-align: center;
+.title {
   padding: 1% 4%;
 }
+.title a{
+	color:black;
+  text-align: center;
+	text-decoration: none;
+}
+.title a:hover{
+	opacity:0.7;
+}
+
+.itembox img:hover{
+	opacity:0.7;
+}
+
 
 #projectDirectory li{
   cursor: pointer;
-  float:center;
+  float: center;
   display:inline;
   padding:1% 2% 1% 2%;
 }
