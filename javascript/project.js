@@ -15,3 +15,7 @@ function showPages(n) {
   }
   pages[pageIndex-1].style.display = "block";
 }
+
+function goBack() {
+  window.history.back();
+}
