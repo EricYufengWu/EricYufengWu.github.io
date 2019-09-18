@@ -18,12 +18,21 @@
     <div class="container">
       <div id="branding">
         <h1>Yufeng (Eric) Wu</h1>
+				<div id="topicons">
+					<a href="https://www.instagram.com/eric_wuyufeng/?hl=en" target="blank"><img src="/documents/icons/Instagram.png"></a>
+					<a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="blank"><img src="/documents/icons/Youtube.png"></a>
+					<a href="https://www.facebook.com/profile.php?id=100008802941721" target="blank"><img src="/documents/icons/Facebook.png"></a>
+					<a href="https://github.com/EricYufengWu" target="blank"><img src="/documents/icons/Github.png"></a>
+					<a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="blank"><img src="/documents/icons/Linkedin.png"></a>
+				</div>
       </div>
+		</div>
+		<div class="container">	
       <nav>
         <ul>
           <li><a href="../index.html">About</a></li>
           <li><a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="blank">Resume</a></li>
-          <li class="current"><a href="projects.html">Projects</a></li>
+          <li class="current"><a href="../projects/projects.html">Projects</a></li>
           <li><a href="../research/research.html">Research</a></li>
           <li><a href="../art/art.html">Art &amp; Design</a></li>
           <li><a href="../cardistry.html">Cardistry</a></li>
@@ -33,76 +42,79 @@
   </header>
 	
 	
-	<section>
+
 		<div class="container">
-			<h2>Delta Ceramics 3D Printer</h2>
+			<h2 class="centered">Delta Ceramics 3D Printer</h2>
 			<p class="light"><b>Note:</b> This is an ongoing project, so I will be frequently updating the page.</p>
-			<p class="main_content">Starting from July 2019, I am building a Delta-style ceramics 3D Printer with Floor Van De Velde, a Professor from the School of Museum of Fine Arts at Tufts (<a href="https://smfa.tufts.edu/directory/floor-van-de-velde" target="_blank">link to bio</a>). For the first version of our printer, we adapted the design from <a href="http://www.keep-art.co.uk/Self_build.html" target="_blank">Jonathan Keep</a>, while making modifications and improvements on several apects, including the three sliding brackets at the sides, the rods fixturing methods, the upper plates, etc. </p>
+			<p class="main_content">Starting from July 2019, I am building a Delta-style ceramics 3D Printer with Floor Van De Velde, a Professor from the School of Museum of Fine Arts at Tufts (<a href="https://smfa.tufts.edu/directory/floor-van-de-velde" target="_blank">link to bio</a>). For the first version of our printer, we adapted the design from <a href="http://www.keep-art.co.uk/Self_build.html" target="_blank">Jonathan Keep</a>, while making modifications and improvements on several apects, including the three sliding brackets at the sides, fixturing method for the rods, the upper plates, etc. </p>
 			<p>After we did the structure fabrication together, I connected the electronics and configured the Marlin Firmware. We printed out several vases successfully on the first week of September, and have decided to continue working on improving it's performance in all aspects.</p>
-			<p>This project gets me exposed to all aspects about a custom-build FDM 3D Printer, including stepper motor controls, power management, printer calibration, G-code, and slicing profiles.
+			<p>This project gets me exposed to all aspects about a custom-build FDM 3D Printer, including stepper motor controls, power management, printer calibration, G-code, and slicing configurations.
 		</div>
-	</section>
+
 	
+		<div class="container">
+			<h3>Latest Update</h3>
+			<p>After two weeks of calibration, clay preparation, and electronics debugging, we finally made our first successful print! The extruder is working consistently and the stepper motors are interpreting G-code fairly accurately. While this is a great start, we still have a lot of improvements to make: finding a more suitable nozzle, securing the stepper-motor belt, improving the calibration process, etc.</p>
+		</div>
+	
+
 	
  	<!-- Image Gallery -->
   <section id="showcase">
     <div class="container">
-      
       <!-- Full-width images with number text -->
       <div class="mySlides">
-        <img src="../documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" style="width:100%">
-        <div class="imgcontent">
-          <h1>Hexapods</h1>
-          <p class="showcasetext">Starting in my Sophomore Spring, I am building a series of hexapods from scratch. Right now I have built and tested 4 of them, and the number will continue to grow as I keep making improvements on all aspects.</p>
-        </div>
+				<div class="numbertext">1 / 4</div>
+        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG">
       </div> 
 
       <div class="mySlides">
-        <img src="../documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" style="width:100%">
-        <div class="imgcontent">
-          <h1>LEGO Spike Prime Backpack</h1>
-          <p class="showcasetext">As an intern in Tufts Center for Engineering Education and Outreach (CEEO), I designed PCBs and 3D-printed housings that combine 3rd-party devices with the new LEGO robotics education kit.</p>
-        </div>
+				<div class="numbertext">2 / 4</div>
+        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG">
       </div> 
 
       <div class="mySlides">
-        <img src="../documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" style="width:100%">
-        <div class="imgcontent">
-          <h1>Delta Ceramics 3D-Printer</h1>
-          <p class="showcasetext">With a professor in Tufts Sculpture department, I built a delta-style 3D-printer dedicated for ceramics (clay) printing. We adopted a design online and built our own version with improvements.</p>
-        </div>
+				<div class="numbertext">3 / 4</div>
+        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG">
       </div> 
 
       <div class="mySlides">
-        <img src="../documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" style="width:100%">
-        <div class="imgcontent">
-          <h1>Fluidic Control Board for Soft Robotics</h1>
-          <p class="showcasetext">I built a control board with a solenoid valve manifold and power MOSFETS. The board is used in my lab to study and test out inflatable soft robotics actuators.</p>
-        </div>
+				<div class="numbertext">4 / 4</div>
+        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG">
       </div> 
       
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
       
-      <!-- Thumbnail images -->
-      <div class="row">
-        <div class="column">
-          <img class="demo cursor" src="../documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" style="width:100%" onclick="currentSlide(1)" alt="Featuring_1">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="../documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" style="width:100%" onclick="currentSlide(2)" alt="Featuring_2">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="../documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" style="width:100%" onclick="currentSlide(3)" alt="Featuring_3">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="../documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" style="width:100%" onclick="currentSlide(4)" alt="Featuring_4">
-        </div>
-      </div>
+			<p class="img_caption">Printer worked for the first time. 09-10-2019</p>
+			<br>
+    </div>
+		
+		
+		<div class="container">
+			<h3>1. Fabrication</h3>
+			<p class = "light">July 22nd - Mid August</p>
+			<p>We started the project by going through the old list provided by the tutorial. We fixed some broken links and replaced the old electronics board with the latest one available on market. After purchasing all the materials, we made re-designed alot of the fabrication files to fit the dimensions of the components we got. The main structure (base &amp; top) were machined on an X-Carve machine using MDF and Plywood.</p>
+			<img class="regular" src="../documents/projects/engineering_ceramics_printer/fabrication_1.JPG">
+			<p class="img_caption">Building in progress.</p>
+		</div>
+		
+		<div class="container">
+			<h3>2. Electronics and Calibration</h3>
+			<p class = "light">Mid August - September 10</p>
+			<p>After finishing the physical build with Floor, I set up the RAMPS1.4 board, plugged in all the wires, and configured Marlin to be used on the printer. This is the first custom-made 3D printer I've built, so it took me a while to figure out how to edit the preferences in the Marlin firmware. I also used a potentiometer to "trick" the temperature sensor. After all the firmware configuration is complete, I designed a simple base plate to organize the power adapter, the board, and the LCD screen (shown in final setup).</p>
+			<img class="regular" src="../documents/projects/engineering_ceramics_printer/electronics_1.jpeg">
+			<p class="img_caption">Printer firmware configuration (Marlin).</p>
+		</div>
+		
+		
+		
+		<div class="container">
 			<br>
 			<button class="back" onclick="goBack()">Go Back</button>
-    </div>
+		</div>
+		
   </section>
 	
 	
