@@ -10,8 +10,6 @@ ul{
   padding:0;
 }
 
-
-
 @media screen 
   and (min-width: 1081px) { 
   /* global */
@@ -29,6 +27,7 @@ ul{
 	}
 	#topicons img:hover{
 		opacity: 0.5;
+		transition: 0.3s;
 	}
   .container{
     width:60%;
@@ -37,6 +36,15 @@ ul{
     overflow:hidden;
     position:relative;
   }
+	/*regular image in line*/
+	.regular{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:80%;
+		height:450px;
+		object-fit: cover;
+	}
 }
 
 @media screen 
@@ -56,6 +64,7 @@ ul{
 	}
 	#topicons img:hover{
 		opacity: 0.5;
+		transition: 0.3s;
 	}
   .container{
     width:80%;
@@ -63,6 +72,15 @@ ul{
     overflow:hidden;
     position:relative;
   }
+	/*regular image in line*/
+	.regular{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:80%;
+		height:300px;
+		object-fit: cover;
+	}
 }
 
 @media screen 
@@ -78,6 +96,7 @@ ul{
 	}
 	#topicons img:hover{
 		opacity: 0.5;
+		transition: 0.3s;
 	}
 }
 
@@ -118,6 +137,7 @@ header .highlight, header .current a{
 header a:hover{
   color:#cccccc;
   font-weight:bold;
+	transition: 0.3s;
 }
 
 
@@ -133,13 +153,22 @@ header a:hover{
 	text-align:center;
 	line-height:0%;
 }
-.regular{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width:80%;
-	height:450px;
+.back_button{
+	background-color:#f2f2f2; /* Green */
+  border: none;
+  color: #026f72;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 120%;
 }
+.back_button:hover{
+	opacity:0.7;
+	cursor: pointer;
+	transition:0.3s;
+}
+
 
 
 
@@ -167,6 +196,7 @@ footer .contact{
 	width:40px;
 	padding: 0px 5px 5px 5px;
 	opacity: 0.5;
+	transition: 0.3s;
 }
 
 

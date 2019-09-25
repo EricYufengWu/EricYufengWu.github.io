@@ -34,7 +34,7 @@
           <li><a href="../index.html">About</a></li>
           <li><a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="blank">Resume</a></li>
           <li class="current"><a href="../projects/projects.html">Projects</a></li>
-          <li><a href="../research/research.html">Research</a></li>
+          <!-- <li><a href="../research/research.html">Research</a></li> -->
           <li><a href="../art/art.html">Art &amp; Design</a></li>
           <li><a href="../cardistry.html">Cardistry</a></li>
         </ul>
@@ -43,7 +43,7 @@
   </header>
 	
 	
-
+  <section id="showcase">
 		<div class="container">
 			<h2 class="centered">Delta Ceramics 3D Printer</h2>
 			<p class="light"><b>Note:</b> This is an ongoing project, so I will be frequently updating the page.</p>
@@ -60,142 +60,91 @@
 	
 
 	
- 	<!-- Image Gallery -->
-  <section id="showcase">
-		
-	<!--	
-    <div class="container">
-      
-      <div class="mySlides">
-				<div class="numbertext">1 / 4</div>
-        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG">
-      </div> 
+ 		<!-- Image Gallery -->
+		<div class="container">		
+			<!-- Images used to open the lightbox -->
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
 
-      <div class="mySlides">
-				<div class="numbertext">2 / 4</div>
-        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG">
-      </div> 
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
 
-      <div class="mySlides">
-				<div class="numbertext">3 / 4</div>
-        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG">
-      </div> 
+					<div class="mySlides">
+						<div class="numbertext">1 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG">
+					</div>
 
-      <div class="mySlides">
-				<div class="numbertext">4 / 4</div>
-        <img class="big" src="../documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG">
-      </div> 
-      
-      
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
+					<div class="mySlides">
+						<div class="numbertext">2 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG">
+					</div>
+					
+					<div class="mySlides">
+						<div class="numbertext">5 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/fabrication_1.JPG">
+					</div>
+					
+					<div class="mySlides">
+						<div class="numbertext">6 / 6</div>
+						<img src="/documents/projects/engineering_ceramics_printer/electronics_1.jpeg">
+					</div>
+
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+
+				</div>
+			</div>
 			<p class="img_caption">Printer worked for the first time. 09-10-2019</p>
 			<br>
-    </div> -->
-		
-		
-	
-		
-		
-		
-		
-<div class="container">		
-	<!-- Images used to open the lightbox -->
-	<div class="row_lightbox">
-		<div>
-			<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" onclick="openModal();currentSlide(1)" class="hover-shadow">
-		</div>
-		<div>
-			<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" onclick="openModal();currentSlide(2)" class="hover-shadow">
-		</div>
-		<div>
-			<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" onclick="openModal();currentSlide(3)" class="hover-shadow">
-		</div>
-		<div>
-			<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" onclick="openModal();currentSlide(4)" class="hover-shadow">
-		</div>
-	</div>
+		</div>	
 
-	<!-- The Modal/Lightbox -->
-	<div id="myModal" class="modal">
-		<span class="close cursor" onclick="closeModal()">&times;</span>
-		<div class="modal-content">
 
-			<div class="mySlides">
-				<div class="numbertext">1 / 4</div>
-				<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" style="width:100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">2 / 4</div>
-				<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" style="width:100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">3 / 4</div>
-				<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" style="width:100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">4 / 4</div>
-				<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" style="width:100%">
-			</div>
-
-			<!-- Next/previous controls -->
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-			<!-- Caption text -->
-			<div class="caption-container">
-				<p id="caption"></p>
-			</div>
-
-			<!-- Thumbnail image controls -->
-			<div class="column_lightbox">
-				<img class="demo" src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" onclick="currentSlide(1)" alt="Nature">
-			</div>
-
-			<div class="column_lightbox">
-				<img class="demo" src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" onclick="currentSlide(2)" alt="Snow">
-			</div>
-
-			<div class="column_lightbox">
-				<img class="demo" src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" onclick="currentSlide(3)" alt="Mountains">
-			</div>
-
-			<div class="column_lightbox">
-				<img class="demo" src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" onclick="currentSlide(4)" alt="Lights">
-			</div>
-		</div>
-	</div>
-	<p class="img_caption">Printer worked for the first time. 09-10-2019</p>
-	<br>
-</div>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		<div class="container">
 			<h3>1. Fabrication</h3>
 			<p class = "light">July 22nd - Mid August</p>
 			<p>We started the project by going through the old list provided by the tutorial. We fixed some broken links and replaced the old electronics board with the latest one available on market. After purchasing all the materials, we made re-designed alot of the fabrication files to fit the dimensions of the components we got. The main structure (base &amp; top) were machined on an X-Carve machine using MDF and Plywood.</p>
-			<img class="regular" src="../documents/projects/engineering_ceramics_printer/fabrication_1.JPG">
+			<div class="single"><img src="/documents/projects/engineering_ceramics_printer/fabrication_1.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
 			<p class="img_caption">Building in progress.</p>
+			<br>
 		</div>
 		
 		<div class="container">
 			<h3>2. Electronics and Calibration</h3>
 			<p class = "light">Mid August - September 10</p>
 			<p>After finishing the physical build with Floor, I set up the RAMPS1.4 board, plugged in all the wires, and configured Marlin to be used on the printer. This is the first custom-made 3D printer I've built, so it took me a while to figure out how to edit the preferences in the Marlin firmware. I also used a potentiometer to "trick" the temperature sensor. After all the firmware configuration is complete, I designed a simple base plate to organize the power adapter, the board, and the LCD screen (shown in final setup).</p>
-			<img class="regular" src="../documents/projects/engineering_ceramics_printer/electronics_1.jpeg">
+			<div class="single"><img src="/documents/projects/engineering_ceramics_printer/electronics_1.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
 			<p class="img_caption">Printer firmware configuration (Marlin).</p>
 		</div>
 		
@@ -203,7 +152,7 @@
 		
 		<div class="container">
 			<br>
-			<button class="back" onclick="goBack()">Go Back</button>
+			<button class="back_button" onclick="goBack()">Back &lt;&lt;</button>
 		</div>
 		
   </section>

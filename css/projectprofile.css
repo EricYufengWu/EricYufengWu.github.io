@@ -10,7 +10,7 @@
 }
 
 @media screen 
-  and (min-width: 800px) { 
+  and (min-width: 801px) { 
   .itembox{
     float:left;
     width:31.3%;
@@ -30,7 +30,7 @@
 }
 
 @media screen 
-  and (max-width: 801px) {
+  and (max-width: 800px) {
   .itembox{
     float:left;
     width:40%;
@@ -66,10 +66,12 @@
 }
 .title a:hover{
 	opacity:0.7;
+	transition: 0.3s;
 }
 
 .itembox img:hover{
 	opacity:0.7;
+	transition: 0.3s;
 }
 
 
@@ -83,6 +85,7 @@
 #projectDirectory li:hover{
   color:#cccccc;
   font-weight:bold;
+	transition: 0.3s;
 }
 
 #projectDirectory a{
