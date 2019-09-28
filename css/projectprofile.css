@@ -94,6 +94,15 @@
   font-size:16px;
 }
 
+#pgnumber {
+	height:10px;
+	
+	color:aqua;
+}
+
+.projectSections {
+	display:none;
+}
 
 
 

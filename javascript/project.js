@@ -1,13 +1,14 @@
 var pageIndex = 1;
 showPages(pageIndex);
 
+
 function changePages(n) {
   showPages(pageIndex = n);
   //console.log(pageIndex);
 }
 
 function showPages(n) {
-  //console.log("showing page " + n);
+  console.log("showing page " + n);
   var i;
   var pages = document.getElementsByClassName("projectSections");
   for (i = 0; i < pages.length; i++) {
@@ -19,3 +20,4 @@ function showPages(n) {
 function goBack() {
   window.history.back();
 }
+

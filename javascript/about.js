@@ -26,3 +26,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+$(document).ready(function(){
+    if($("#wrapfabtest").height() > 0) {
+        
+    } else {
+        alert('Please Turn off your Adblocker, as it might prevent some content of this page to show up. I promise that there\'	s no Ads here :P');
+    }
+});

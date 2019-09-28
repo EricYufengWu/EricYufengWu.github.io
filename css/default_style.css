@@ -153,17 +153,38 @@ header a:hover{
 	text-align:center;
 	line-height:0%;
 }
-.back_button{
+
+
+.prev_page{
+	line-height:0%;
 	background-color:#f2f2f2; /* Green */
   border: none;
   color: #026f72;
-  padding: 10px 20px;
-  text-align: center;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
   text-decoration: none;
-  display: inline-block;
-  font-size: 120%;
+  font-size: 100%;
+	float: left;
+	width:30%;
 }
-.back_button:hover{
+.prev_page:hover{
+	opacity:0.7;
+	cursor: pointer;
+	transition:0.3s;
+}
+.next_page{
+	line-height:0%;
+	background-color:#f2f2f2; /* Green */
+  border: none;
+  color: #026f72;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 100%;
+	float: right;
+	width:30%;
+}
+.next_page:hover{
 	opacity:0.7;
 	cursor: pointer;
 	transition:0.3s;
@@ -199,6 +220,11 @@ footer .contact{
 	transition: 0.3s;
 }
 
+.adBanner {
+    background-color: transparent;
+    height: 1px;
+    width: 1px;
+}
 
 
 
