@@ -153,6 +153,16 @@ header a:hover{
 	text-align:center;
 	line-height:0%;
 }
+.date{
+	color:#6f6f6f;
+	text-align:center;
+	line-height:0%;
+	font-size:90%;
+}
+.tab {
+	margin-left:40px;
+	line-height:50%;
+}
 
 
 .prev_page{
