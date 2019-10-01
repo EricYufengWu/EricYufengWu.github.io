@@ -18,7 +18,8 @@ img.hover-shadow {
 	max-width:900px;
 }
 .modal-content img{
-	width:100%;
+	max-width:100%;
+	max-height:100%;
 }
 /* The Modal (background) */
 .modal {

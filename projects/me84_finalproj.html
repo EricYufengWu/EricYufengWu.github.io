@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Yufeng (Eric) Wu | Welcome</title>
+  <title>Yufeng (Eric) Wu | Projects</title>
   <meta charset="utf-8">
   <meta name="author" content="Yufeng (Eric) Wu">
   <meta name = "viewport" content="width=device-width">
@@ -10,6 +10,8 @@
   <meta name="keywords" content="portfolio, mechanical engineering">
   <link rel="stylesheet" type="text/css" href="../css/default_style.css">
   <link rel="stylesheet" type="text/css" href="../css/projectprofile.css">
+	<!--<link rel="stylesheet" type="text/css" href="../css/showcase.css">-->
+	<link rel="stylesheet" type="text/css" href="../css/lightbox.css">
 </head>
     
 <body>
@@ -17,33 +19,144 @@
     <div class="container">
       <div id="branding">
         <h1>Yufeng (Eric) Wu</h1>
+				<div id="topicons">
+					<a href="https://www.instagram.com/eric_wuyufeng/?hl=en" target="blank"><img src="/documents/icons/Instagram.png"></a>
+					<a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="blank"><img src="/documents/icons/Youtube.png"></a>
+					<a href="https://www.facebook.com/profile.php?id=100008802941721" target="blank"><img src="/documents/icons/Facebook.png"></a>
+					<a href="https://github.com/EricYufengWu" target="blank"><img src="/documents/icons/Github.png"></a>
+					<a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="blank"><img src="/documents/icons/Linkedin.png"></a>
+				</div>
       </div>
+		</div>
+		<div class="container">	
       <nav>
         <ul>
           <li><a href="../index.html">About</a></li>
-          <li><a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="blank">Resume</a></li>
-          <li class="current"><a href="projects.html">Projects</a></li>
-          <li><a href="../research/research.html">Research</a></li>
+          <li><a href="/Eric%20Yufeng%20Wu%20Resume.pdf" target="blank">Resume</a></li>
+          <li class="current"><a href="../projects/projects.html">Projects</a></li>
+          <!-- <li><a href="../research/research.html">Research</a></li> -->
           <li><a href="../art/art.html">Art &amp; Design</a></li>
           <li><a href="../cardistry.html">Cardistry</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  
+	
+	
+  <section id="showcase">
+		<div class="container">
+			<br>
+			<div class="prev_button">
+				<a class="prev_page" href=""><p>&lt;&lt; Prev:</p></a>
+			</div>
+			<div class="next_button">
+				<a class="next_page" href="/projects/me84_hw8.html"><p>Next: HW 8 &gt;&gt;</p></a>
+			</div>
+		</div>
+		
+	
+		<div class="container">
+			<h2 class="centered">Final Project - Mini Jumbo</h2>
+			<!---<p class="light"><b>Note:</b> This is an ongoing project, so I will be frequently updating the page.</p>--->
+			<!--<p class="date">March 2019 - May 2019</p>-->
+			<p class="main_content">This is the final project for my Intro to Robotics Class: A cute puppet named Mini Jumbo. We used an OpenMV camera to perform face detection and tracking, and sends signals to a pyboard via UART communication. With the data from, we mounted 6 micro-servos to control her arms, ears, and head movement, making Mini Jumbo arguably one of the cutest puppets in the world.</p>
+			<p>As shown in the short video below, Mini Jumbo has three main features: When there’s no one in sight, she would turn her arms back-and-forth, desperately waiting for people to come and play with her; once she sees you, she would stop flapping the arms and start to move her head to follow your face. If you approach her and gain her trust, she would happily flap her ears a sign of friendliness.</p>
+			<p>This project was done in collaboration with David Gelfand. After coming up with a sketch of the design together, David focused on designing the physical chassis, while I focused on programming, wiring, and powering the system. Mini Jumbo is a representation of what we’ve learned throughout the semester in the Intro to Robotics class—building a complete, functional robot from start to finish.</p>
+			<p>Huge thanks to Chris, Dipesh, and all TAs who spent time over the past few months helping us build amazing robots!</p>
+			<br>
+			<br>
+				
+			<div class="container">
+				<iframe  width="560" height="315" src="https://www.youtube.com/embed/Z5tkxr2_EXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
 
+ 		<!-- Image Gallery -->
+		<div class="container">		
+			<br>
+			<br>
+			<br>
+			<!-- Images used to open the lightbox -->
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/me_84_finalproj/detail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/me_84_finalproj/detail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/me_84_finalproj/detail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/me_84_finalproj/detail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
 
-  
-  
+			<p class="img_caption">Click <a href="https://github.com/EricYufengWu/ME-084-Class-Projects" target="_blank" >here</a> to access the code for the OpenMV camera and the Pyboard.</p>
+			<br>
+		</div>	
+		
+		
+		
+		<div class="container">
+			<br>
+			<div class="prev_button">
+				<a class="prev_page" href=""><p>&lt;&lt; Prev:</p></a>
+			</div>
+			<div class="next_button">
+				<a class="next_page" href="/projects/me84_hw8.html"><p>Next: HW 8 &gt;&gt;</p></a>
+			</div>
+		</div>
+		
+  </section>
+	
+	
+	
+	<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<img src="/documents/projects/me_84_finalproj/detail_1.jpg">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/me_84_finalproj/detail_2.jpg">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/me_84_finalproj/detail_3.jpg">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/me_84_finalproj/detail_4.jpg">
+					</div>			
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+				</div>
+			</div>
+	
   
   <footer>
     <div class="container">
       <p class = contact>Contact Me:<br> yufeng.wu@tufts.edu</p>
+			<div id="icons">
+				<a href="https://www.instagram.com/eric_wuyufeng/?hl=en" target="blank"><img src="/documents/icons/Instagram.png"></a>
+				<a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="blank"><img src="/documents/icons/Youtube.png"></a>
+				<a href="https://www.facebook.com/profile.php?id=100008802941721" target="blank"><img src="/documents/icons/Facebook.png"></a>
+				<a href="https://github.com/EricYufengWu" target="blank"><img src="/documents/icons/Github.png"></a>
+				<a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="blank"><img src="/documents/icons/Linkedin.png"></a>
+			</div>
     </div>
   </footer>
   
   
   <script type="text/javascript" src="../javascript/project.js"></script>
+	<script type="text/javascript" src="../javascript/content_slideshow.js"></script>
+	<script type="text/javascript" src="../javascript/lightbox.js"></script>
   
 </body>
     
