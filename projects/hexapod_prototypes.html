@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Yufeng (Eric) Wu | Welcome</title>
+  <title>Yufeng (Eric) Wu | Projects</title>
   <meta charset="utf-8">
   <meta name="author" content="Yufeng (Eric) Wu">
   <meta name = "viewport" content="width=device-width">
@@ -10,6 +10,8 @@
   <meta name="keywords" content="portfolio, mechanical engineering">
   <link rel="stylesheet" type="text/css" href="../css/default_style.css">
   <link rel="stylesheet" type="text/css" href="../css/projectprofile.css">
+	<!--<link rel="stylesheet" type="text/css" href="../css/showcase.css">-->
+	<link rel="stylesheet" type="text/css" href="../css/lightbox.css">
 </head>
     
 <body>
@@ -17,33 +19,184 @@
     <div class="container">
       <div id="branding">
         <h1>Yufeng (Eric) Wu</h1>
+				<div id="topicons">
+					<a href="https://www.instagram.com/eric_wuyufeng/?hl=en" target="blank"><img src="/documents/icons/Instagram.png"></a>
+					<a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="blank"><img src="/documents/icons/Youtube.png"></a>
+					<a href="https://www.facebook.com/profile.php?id=100008802941721" target="blank"><img src="/documents/icons/Facebook.png"></a>
+					<a href="https://github.com/EricYufengWu" target="blank"><img src="/documents/icons/Github.png"></a>
+					<a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="blank"><img src="/documents/icons/Linkedin.png"></a>
+				</div>
       </div>
+		</div>
+		<div class="container">	
       <nav>
         <ul>
           <li><a href="../index.html">About</a></li>
-          <li><a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="blank">Resume</a></li>
-          <li class="current"><a href="projects.html">Projects</a></li>
-          <li><a href="../research/research.html">Research</a></li>
+          <li><a href="/Eric%20Yufeng%20Wu%20Resume.pdf" target="blank">Resume</a></li>
+          <li class="current"><a href="../projects/projects.html">Projects</a></li>
+          <!-- <li><a href="../research/research.html">Research</a></li> -->
           <li><a href="../art/art.html">Art &amp; Design</a></li>
           <li><a href="../cardistry.html">Cardistry</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  
+	
+	
+  <section id="showcase">
+		<div class="container">
+			<br>
+			<div class="prev_button">
+				<a class="prev_page" href="hexapod_h1.html"><p>&lt;&lt; Prev: H1</p></a>
+			</div>
+			<div class="next_button">
+				<a class="next_page" href=""><p>Next:&gt;&gt;</p></a>
+			</div>
+		</div>
+		
+	
+		<div class="container">
+			<h2 class="centered">Hexapods - Prototypes</h2>
+			<!---<p class="light"><b>Note:</b> This is an ongoing project, so I will be frequently updating the page.</p>--->
+			<p class="date">September 2018</p>
+			<p class="main_content">I recently started building a simple hexapod robot as a personal project. My intention is to get a fundamental, thorough experience from designing to building a robot (this includes fabricating the structures, selecting and assembling circuit boards and servos, doing some programming on a microprocessor, basic IoT, etc.). This is an ongoing project, so I will be frequently updating the page.</p>
+			<p class="main_content">The robot recently went on an article on Tufts Now that introduces the new makerspace at Tufts:  <br><a href="https://now.tufts.edu/articles/want-build-hexapod-robot-makerspace" target="_blank">https://now.tufts.edu/articles/want-build-hexapod-robot-makerspace</a></p>
+			<br>
+			<h3>First, a video that sums up my work:</h3>
+			<div class="container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/VP23StmAQfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<br>
+			
+			
+			<h3>Version 1</h3>
+			<p class="main_content">After some preliminary research online, I had a learer sense what general shape do people's hexapods look like. Then, I started sketching out my design ideas. Some changes were made when I was actually CADing and 3D-printing the parts, including flipping the design upside-down doe leave spaces for circuits and power, cutting out a hole at the center of the acrylic plate to let servo wires go through, etc. </p>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/sketch_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/prototype_1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+			</div>
+			<div class="single"><img src="/documents/projects/hexapod_prototypes/prototype_1.gif" onclick="openModal();currentSlide(3)" class="hover-shadow"></div>
+			<p class="img_caption">Hexapod Walked for the First Time</p>
+			<br>
+			
+			
+			<h3>Version 2</h3>
+			<p class="main_content">Based on the first design, I added a second acrylic plate at the bottom, and I modifird the CAD design of the legs to increase their stability. The arduino board, servo driver, and the batteries are now placed securely on the robot, fixed by cable ties. </p>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/sketch_2_1.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/sketch_2_2.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+				</div>
+			</div>
+			<p class="img_caption">Design Sketches</p>
+			<br>
+			<div class="single"><img src="/documents/projects/hexapod_prototypes/prototype_2.gif" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
+			<p class="img_caption">Robot in Action</p>
+			<br>
+			
+			
+			<h3>Version 3</h3>
+			<p class="main_content">Made some further improvement on the design: re-designed the robot's structure, which is now entirely made of 3D-printed parts. More thoughts are put into the design in order to enclose the servo and make the robot look nicer.</p>
+			<div class="single"><img src="/documents/projects/hexapod_prototypes/sketch_3.png" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
+			<p class="img_caption">Design Sketch</p>
+			<br>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/final_1.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/hexapod_prototypes/final_2.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+				</div>
+			</div>
+			<p class="img_caption">Version 3 Completed</p>
+			
+			
+		</div>
 
+		
+		
+		
+		<div class="container">
+			<br>
+			<div class="prev_button">
+				<a class="prev_page" href="hexapod_h1.html"><p>&lt;&lt; Prev: H1</p></a>
+			</div>
+			<div class="next_button">
+				<a class="next_page" href=""><p>Next:&gt;&gt;</p></a>
+			</div>
+		</div>
+		
+  </section>
+	
+	
+	
+	<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
 
-  
-  
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/sketch_1.png">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/prototype_1.jpg">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/prototype_1.gif">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/sketch_2_1.png">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/sketch_2_2.png">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/prototype_2.gif">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/sketch_3.png">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/final_1.jpg">
+					</div>
+					<div class="mySlides">
+						<img src="/documents/projects/hexapod_prototypes/final_2.jpg">
+					</div>
+
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+				</div>
+			</div>
+	
   
   <footer>
     <div class="container">
       <p class = contact>Contact Me:<br> yufeng.wu@tufts.edu</p>
+			<div id="icons">
+				<a href="https://www.instagram.com/eric_wuyufeng/?hl=en" target="blank"><img src="/documents/icons/Instagram.png"></a>
+				<a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="blank"><img src="/documents/icons/Youtube.png"></a>
+				<a href="https://www.facebook.com/profile.php?id=100008802941721" target="blank"><img src="/documents/icons/Facebook.png"></a>
+				<a href="https://github.com/EricYufengWu" target="blank"><img src="/documents/icons/Github.png"></a>
+				<a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="blank"><img src="/documents/icons/Linkedin.png"></a>
+			</div>
     </div>
   </footer>
   
   
   <script type="text/javascript" src="../javascript/project.js"></script>
+	<script type="text/javascript" src="../javascript/content_slideshow.js"></script>
+	<script type="text/javascript" src="../javascript/lightbox.js"></script>
   
 </body>
     
