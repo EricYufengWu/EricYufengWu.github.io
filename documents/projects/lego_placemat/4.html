@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://yufengericwu.myportfolio.com/one-page-building-instruction -->
+<html lang="en-US" class="wf-ftnk-n4-active wf-ftnk-n5-active wf-ftnk-n7-active wf-lgmv-n2-active wf-vcsm-n4-active wf-vcsm-n7-active wf-active lightbox-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="./4_files/nr-1130.min.js.download"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgUFVldbGwEJUlJXBAQDUw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@AdobePortfolio">
+      <meta property="og:title" content="Yufeng Wu - One-Page Building Instruction">
+      <meta property="og:image" content="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/2e7c14af-f9d6-4309-a3e0-34e9844f4b40_car_1x1.jpg?h=f5b3f69d6cf070e512388b0490d3ea3e">
+        <link rel="icon" href="https://pro2-bar-s3-cdn-cf.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/b7653bd2-6f0d-417a-aef3-38aaf920d174_carw_1x1x32.png?h=65a03676427a6424a9040c100dc46ce8">
+        <link rel="apple-touch-icon" href="https://pro2-bar-s3-cdn-cf5.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/643d3130-ab3f-4a80-9512-d468825cfa1a_carw_1x1x180.png?h=53480fc5b3e9bf3788b6dfb5450de872">
+      <link rel="stylesheet" href="./4_files/main.css" type="text/css">
+      <link rel="stylesheet" href="./4_files/717829a48b5fad64747b7bf2f577ae731558058186.css" type="text/css">
+    <link rel="canonical" href="https://yufengericwu.myportfolio.com/one-page-building-instruction">
+      <title>Yufeng Wu - One-Page Building Instruction</title>
+<style type="text/css">@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:lgmv;src:url(https://use.typekit.net/af/b0da9a/0000000000000000000142df/27/l?subset_id=2&fvd=n2&v=3) format("woff2"),url(https://use.typekit.net/af/b0da9a/0000000000000000000142df/27/d?subset_id=2&fvd=n2&v=3) format("woff"),url(https://use.typekit.net/af/b0da9a/0000000000000000000142df/27/a?subset_id=2&fvd=n2&v=3) format("opentype");font-weight:200;font-style:normal;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}</style><style type="text/css"></style><script async="" src="https://negbar.ad-blocker.org/chrome/adblocker-chromeglobalinjectjs.js"></script></head>
+        <body class="has-touch link-transition">  <div class="js-responsive-nav">
+    <div class="responsive-nav has-social">
+      <div class="close-responsive-click-area js-close-responsive-nav">
+        <div class="close-responsive-button"></div>
+      </div>
+          <nav class="js-editable-target editable">
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/home">Engineering</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/class-projects">Robotics Class Projects</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/lego">LEGO</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/work">Digital Fabrication</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/graphic-design">Graphic Design</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/hobbies">Hobbies</a></li>
+              </ul>
+      <div class="link-title">
+        <a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="_blank">Resume</a>
+      </div>
+      <div class="page-title">
+        <a href="https://yufengericwu.myportfolio.com/about">About</a>
+      </div>
+              <div class="social pf-nav-social">
+                <ul>
+                        <li>
+                          <a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="_blank">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                            <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+                              c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+                              C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.facebook.com/profile.php?id=100008802941721&amp;ref=bookmarks" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M16.21 20h-3.26v-8h-1.63V9.24h1.63V7.59c0-2.25 0.92-3.59 3.53-3.59h2.17v2.76H17.3 c-1.02 0-1.08 0.39-1.08 1.11l0 1.38h2.46L18.38 12h-2.17V20z"></path></svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M26.15 16.54c0 0-0.22 1.57-0.9 2.26c-0.87 0.91-1.84 0.91-2.28 0.96C19.78 20 15 20 15 20 s-5.91-0.05-7.74-0.23c-0.51-0.09-1.64-0.07-2.51-0.97c-0.68-0.69-0.91-2.26-0.91-2.26s-0.23-1.84-0.23-3.68v-1.73 c0-1.84 0.23-3.68 0.23-3.68s0.22-1.57 0.91-2.26c0.87-0.91 1.83-0.91 2.28-0.96C10.22 4 15 4 15 4H15c0 0 4.8 0 8 0.2 c0.44 0.1 1.4 0.1 2.3 0.96c0.68 0.7 0.9 2.3 0.9 2.26s0.23 1.8 0.2 3.68v1.73C26.38 14.7 26.1 16.5 26.1 16.54z M12.65 8.56l0 6.39l6.15-3.18L12.65 8.56z"></path></svg>
+                          </a>
+                        </li>
+                </ul>
+              </div>
+          </nav>
+    </div>
+  </div>
+  <div class="site-wrap cfix js-site-wrap">
+    <div class="site-container">
+      <div class="site-content">
+        <div class="sidebar-content">
+          <header class="site-header">
+              <div class="logo-wrap js-editable-target editable">
+                    <div class="logo logo-image  ">
+    <a href="https://yufengericwu.myportfolio.com/about" class="image-normal image-link">
+      <img src="./4_files/ef1b6787-0b17-4e25-bcdd-f7e56f55d0a2_rwc_0x0x1209x1209x4096.png" alt="Yufeng Wu">
+    </a>
+</div>
+<div class="logo-secondary logo-secondary-text ">
+      <a href="https://yufengericwu.myportfolio.com/about" class="preserve-whitespace">Yufeng (Eric) Wu</a>
+
+</div>
+
+              </div>
+  <div class="hamburger-click-area js-hamburger">
+    <div class="hamburger">
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+  </div>
+          </header>
+              <nav class="js-editable-target editable">
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/home">Engineering</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/class-projects">Robotics Class Projects</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/lego">LEGO</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/work">Digital Fabrication</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/graphic-design">Graphic Design</a></li>
+              </ul>
+              <ul class="group">
+                  <li class="gallery-title"><a href="https://yufengericwu.myportfolio.com/hobbies">Hobbies</a></li>
+              </ul>
+      <div class="link-title">
+        <a href="https://drive.google.com/file/d/1--5kR4o6tvyb9kgonyveolyrORQ6wEy0/view?usp=sharing" target="_blank">Resume</a>
+      </div>
+      <div class="page-title">
+        <a href="https://yufengericwu.myportfolio.com/about">About</a>
+      </div>
+                  <div class="social pf-nav-social">
+                    <ul>
+                            <li>
+                              <a href="https://www.linkedin.com/in/yufeng-eric-wu/" target="_blank">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                                <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+                                  c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+                                  C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.facebook.com/profile.php?id=100008802941721&amp;ref=bookmarks" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M16.21 20h-3.26v-8h-1.63V9.24h1.63V7.59c0-2.25 0.92-3.59 3.53-3.59h2.17v2.76H17.3 c-1.02 0-1.08 0.39-1.08 1.11l0 1.38h2.46L18.38 12h-2.17V20z"></path></svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/channel/UCSTgob4NNM6V9xhvlqdHFvA?view_as=subscriber" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M26.15 16.54c0 0-0.22 1.57-0.9 2.26c-0.87 0.91-1.84 0.91-2.28 0.96C19.78 20 15 20 15 20 s-5.91-0.05-7.74-0.23c-0.51-0.09-1.64-0.07-2.51-0.97c-0.68-0.69-0.91-2.26-0.91-2.26s-0.23-1.84-0.23-3.68v-1.73 c0-1.84 0.23-3.68 0.23-3.68s0.22-1.57 0.91-2.26c0.87-0.91 1.83-0.91 2.28-0.96C10.22 4 15 4 15 4H15c0 0 4.8 0 8 0.2 c0.44 0.1 1.4 0.1 2.3 0.96c0.68 0.7 0.9 2.3 0.9 2.26s0.23 1.8 0.2 3.68v1.73C26.38 14.7 26.1 16.5 26.1 16.54z M12.65 8.56l0 6.39l6.15-3.18L12.65 8.56z"></path></svg>
+                              </a>
+                            </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+        <main>
+  <div class="page-container js-editable-target editable" data-context="page.page.container">
+    <section class="page standard-modules">
+        <header class="page-header content js-editable-target editable" data-context="pages" data-identity="id:p5c76ab8b8cdb5c9343acbae6f11d6b8c0d0a9b98d6cf1389ad7f5" data-menu="Page Header">
+            <h1 class="title preserve-whitespace">One-Page Building Instruction</h1>
+            <p class="description"></p>
+        </header>
+      <div class="page-content js-page-content js-editable-target editable" data-context="pages" data-identity="id:p5c76ab8b8cdb5c9343acbae6f11d6b8c0d0a9b98d6cf1389ad7f5" data-menu="Page Content">
+        <div id="project-canvas" class="js-project-modules modules content">
+          <div id="project-modules">
+              
+              
+              
+              
+              
+              <div class="project-module module text project-module-text align- editable js-editable js-project-module" style="  padding-top: px;
+  padding-bottom: px;
+">
+  <div class="rich-text js-text-editable module-text"><div><span style="font-family:ftnk;font-weight:400;">As part of my summer research project in 2018, I experimented with possible ways to shrink a LEGO instruction from a booklet to a single-sided paper. I used Stud.io to build the LEGO models digitally, and I generated exploded views, and used Indesign to produce a final PDF for the instruction.</span></div></div>
+</div>
+
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="project-module module media_collection project-module-media_collection" style="  padding-top: px;
+  padding-bottom: px;
+  width: 75%;
+">
+  <div class="grid--main js-grid-main grid--ready">
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.23666666667" style="width: 302.232px; flex-grow: 302.232;" data-width="3840" data-height="2159">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_3840.jpg?h=4dcaac0fae7bf8497124225d65513d0f" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_600.jpg?h=ef289ba1fefd981cb56d774c07393615 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_1200.jpg?h=11f89371e412161b57dd1be20aa34fd1 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_1920.jpg?h=354e30910658aef67b8c37a6d5b3abca 1920w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_3840.jpg?h=4dcaac0fae7bf8497124225d65513d0f 3840w," sizes="(max-width: 3840px) 100vw, 3840px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_3840.jpg" sizes="390px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_600.jpg?h=ef289ba1fefd981cb56d774c07393615 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_1200.jpg?h=11f89371e412161b57dd1be20aa34fd1 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_1920.jpg?h=354e30910658aef67b8c37a6d5b3abca 1920w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/c7728fa4-7b24-4fd3-bc05-40cf2eea555d_rw_3840.jpg?h=4dcaac0fae7bf8497124225d65513d0f 3840w,">
+      <span class="grid__item-filler" style="padding-bottom:56.24824224243%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.23666666667" style="width: 302.232px; flex-grow: 302.232;" data-width="3840" data-height="2159">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_3840.jpg?h=5c1dc782b41f4324e247a0f1e5b1d298" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_600.jpg?h=d88a8b4d2b04d33c2a1424866ccb0403 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_1200.jpg?h=064369ce86623f154fae9af58c0fd8b0 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_1920.jpg?h=89f0b807a29a7f8071d4907e149b46df 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_3840.jpg?h=5c1dc782b41f4324e247a0f1e5b1d298 3840w," sizes="(max-width: 3840px) 100vw, 3840px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_3840.jpg" sizes="390px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_600.jpg?h=d88a8b4d2b04d33c2a1424866ccb0403 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_1200.jpg?h=064369ce86623f154fae9af58c0fd8b0 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_1920.jpg?h=89f0b807a29a7f8071d4907e149b46df 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fd0fc5c2-ba6c-41db-bc72-de46d02209b0_rw_3840.jpg?h=5c1dc782b41f4324e247a0f1e5b1d298 3840w,">
+      <span class="grid__item-filler" style="padding-bottom:56.24824224243%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.23666666667" style="width: 302.232px; flex-grow: 302.232;" data-width="3840" data-height="2159">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_3840.jpg?h=157c836c9dcd32b46293e529430bf086" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_600.jpg?h=8e393aa8e856be931d7e0eb9a005f169 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_1200.jpg?h=f38552904825592a95297fdf6e1588fc 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_1920.jpg?h=b8c45b6779ec7a024f549f5ad2c8c6e9 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_3840.jpg?h=157c836c9dcd32b46293e529430bf086 3840w," sizes="(max-width: 3840px) 100vw, 3840px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_3840.jpg" sizes="405px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_600.jpg?h=8e393aa8e856be931d7e0eb9a005f169 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_1200.jpg?h=f38552904825592a95297fdf6e1588fc 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_1920.jpg?h=b8c45b6779ec7a024f549f5ad2c8c6e9 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/f19f637a-50b8-4207-b6cd-cb8b562369a6_rw_3840.jpg?h=157c836c9dcd32b46293e529430bf086 3840w,">
+      <span class="grid__item-filler" style="padding-bottom:56.24824224243%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="146.24542983032" style="width: 95.622px; flex-grow: 95.622;" data-width="3840" data-height="6826">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg?h=f4b9f4b1bea92d41a5ab200e6a0f897a" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_600.jpg?h=5e87ac6844fd1a018dae6a4dad1fbd7c 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1200.jpg?h=4958fc0de009afd9dcc82fd3f2147019 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1920.jpg?h=772e2a9adb9392e1344d8e11f27dd1e2 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg?h=f4b9f4b1bea92d41a5ab200e6a0f897a 3840w," sizes="(max-width: 3840px) 100vw, 3840px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg" sizes="128px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_600.jpg?h=5e87ac6844fd1a018dae6a4dad1fbd7c 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1200.jpg?h=4958fc0de009afd9dcc82fd3f2147019 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1920.jpg?h=772e2a9adb9392e1344d8e11f27dd1e2 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg?h=f4b9f4b1bea92d41a5ab200e6a0f897a 3840w,">
+      <span class="grid__item-filler" style="padding-bottom:177.78333333333%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="272.59837398374" style="width: 178.237px; flex-grow: 178.237;" data-width="1920" data-height="1831">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg?h=ab8af5d0d190ccfdf5e754d8ef38807e" srcset="https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_600.jpg?h=17920a9f158b4388d4168825c0f307d8 600w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1200.jpg?h=12abbadcdb563f6340e5ac3624dc5439 1200w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg?h=ab8af5d0d190ccfdf5e754d8ef38807e 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg" sizes="239px" srcset="https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_600.jpg?h=17920a9f158b4388d4168825c0f307d8 600w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1200.jpg?h=12abbadcdb563f6340e5ac3624dc5439 1200w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg?h=ab8af5d0d190ccfdf5e754d8ef38807e 1920w,">
+      <span class="grid__item-filler" style="padding-bottom:95.37841191067%;"></span>
+    </div>
+    <div class="js-grid-spacer" style="display: none;"></div>
+  </div>
+</div>
+
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="project-module module media_collection project-module-media_collection" style="  padding-top: 85px;
+  padding-bottom: 40px;
+  width: 75%;
+">
+  <div class="grid--main js-grid-main grid--ready">
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.22222222222" style="width: 335.467px; flex-grow: 335.467;" data-width="1920" data-height="1080">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg?h=f9dc3fdb618ca2e7216a92894a11ec08" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_600.jpg?h=396951cb74df7f4a43d7212a6f403b9a 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1200.jpg?h=19f2a95c3acc4656a505a3e1778862b3 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg?h=f9dc3fdb618ca2e7216a92894a11ec08 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg" sizes="592px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_600.jpg?h=396951cb74df7f4a43d7212a6f403b9a 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1200.jpg?h=19f2a95c3acc4656a505a3e1778862b3 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg?h=f9dc3fdb618ca2e7216a92894a11ec08 1920w,">
+      <span class="grid__item-filler" style="padding-bottom:56.25%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="146.25" style="width: 106.144px; flex-grow: 106.144;" data-width="1080" data-height="1920">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_1200.jpg?h=5efdfeae1d75294916e241422ba80266" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_600.jpg?h=73e70b3a8ce200d0fc64437c7afffc34 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_1200.jpg?h=5efdfeae1d75294916e241422ba80266 1080w," sizes="(max-width: 1080px) 100vw, 1080px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_1200.jpg" sizes="188px" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_600.jpg?h=73e70b3a8ce200d0fc64437c7afffc34 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/a37a334b-6b5d-4659-9454-6337d6c1544a_rw_1200.jpg?h=5efdfeae1d75294916e241422ba80266 1080w,">
+      <span class="grid__item-filler" style="padding-bottom:177.77777777778%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.22222222222" style="width: 335.467px; flex-grow: 335.467;" data-width="1920" data-height="1080">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1920.jpg?h=5ab6b12002e2d8baf543a1dd55ee43f7" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_600.jpg?h=e90322a22c998a740cd728e8076245b3 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1200.jpg?h=796aa046e0f81cda924a791d9169d10f 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1920.jpg?h=5ab6b12002e2d8baf543a1dd55ee43f7 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1920.jpg" sizes="390px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_600.jpg?h=e90322a22c998a740cd728e8076245b3 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1200.jpg?h=796aa046e0f81cda924a791d9169d10f 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/26f28a96-cbe7-4799-b12a-45c7ae29f9e6_rw_1920.jpg?h=5ab6b12002e2d8baf543a1dd55ee43f7 1920w,">
+      <span class="grid__item-filler" style="padding-bottom:56.25%;"></span>
+    </div>
+    <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="462.22222222222" style="width: 335.467px; flex-grow: 335.467;" data-width="1920" data-height="1080">
+      <script type="text/html" class="js-lightbox-slide-content">
+        <div class="grid__image-wrapper">
+          <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg?h=db3822124c78c4c5422aaf67925a4707" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_600.jpg?h=ab6e40859f491909fcaf5a71e2dfa1f0 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1200.jpg?h=3946e4b3dc2ca8c37e3c31afef5d33d7 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg?h=db3822124c78c4c5422aaf67925a4707 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </script>
+      <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="./4_files/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg" sizes="390px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_600.jpg?h=ab6e40859f491909fcaf5a71e2dfa1f0 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1200.jpg?h=3946e4b3dc2ca8c37e3c31afef5d33d7 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg?h=db3822124c78c4c5422aaf67925a4707 1920w,">
+      <span class="grid__item-filler" style="padding-bottom:56.25%;"></span>
+    </div>
+    <div class="js-grid-spacer" style="display: none;"></div>
+  </div>
+</div>
+
+              
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="back-to-top js-editable-target editable">
+          <a href="https://yufengericwu.myportfolio.com/one-page-building-instruction#"><span class="arrow">↑</span><span class="preserve-whitespace">Back to Top</span></a>
+        </section>
+        <a class="back-to-top-fixed js-editable-target editable js-back-to-top" href="https://yufengericwu.myportfolio.com/one-page-building-instruction#">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve" class="icon icon-back-to-top">
+          <g>
+            <path d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+              c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
+              c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
+              c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
+              c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
+              c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
+              c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"></path>
+          </g>
+          </svg>
+        </a>
+  </div>
+              <footer class="site-footer js-editable-target editable">
+                <div class="footer-text">
+                  Powered by <a href="http://portfolio.adobe.com/" target="_blank">Adobe Portfolio</a>
+                </div>
+              </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+<div class="cookie-banner js-cookie-banner">
+  <p>Insert copy here, which should vary depending on your region. <a class="consent-link" href="https://yufengericwu.myportfolio.com/one-page-building-instruction#">Accept</a></p>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-6458 -2604 16 16" class="close-btn">
+    <g id="Group_1479" data-name="Group 1479" transform="translate(-8281.367 -3556.368)">
+      <rect id="Rectangle_6401" data-name="Rectangle 6401" class="stroke" width="1.968" height="20.66" transform="translate(1823.367 953.759) rotate(-45)"></rect>
+      <rect id="Rectangle_6402" data-name="Rectangle 6402" class="stroke" width="1.968" height="20.66" transform="translate(1824.758 968.368) rotate(-135)"></rect>
+    </g>
+  </svg>
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e7fb1b89a0","applicationID":"296353545","transactionName":"ZwZaYkJVDERXUxULCV5Me0NDQA1aGWsmJzJtQ0FDVlEMUFNCCAERRU1VT0BbEENQXw0LCR4AV1s=","queueTime":0,"applicationTime":7,"atts":"S0FNFApPHxsUUUNYHU0e","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script type="text/javascript">
+  // fix for Safari's back/forward cache
+  window.onpageshow = function(e) {
+    if (e.persisted) { window.location.reload(); }
+  };
+</script>
+  <script type="text/javascript" src="./4_files/Cb7xgwmclc3HSaz_krRIjYvgT0yCqC-YAxn3gM26jQJfe0GgfHYEBsJzwD9oFDIDWDJkFQ9hw2BqZRyyZ2btwRqojQs85Qj35AwoZcJawD9UjhIXFemRjA9-mkG0dW83da4XZcNC-Av0jhNlOf.download"></script>
+  <script type="text/javascript">var __config__ = {"page_id":"p5c76ab8b8cdb5c9343acbae6f11d6b8c0d0a9b98d6cf1389ad7f5","theme":{"name":"jackie"},"pageTransition":true,"linkTransition":true,"disableDownload":false,"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"},"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}},"cookie_banner":{"enabled":false}};</script>
+  <script type="text/javascript" src="./4_files/translations"></script>
+  <script type="text/javascript" src="./4_files/main.js.download"></script><div class="js-lightbox-wrap" id="lightbox-wrap">
+    
+  <div class="js-blocking" id="lightbox-blocking" style="background-color: rgb(255, 255, 255); opacity: 0.94;">
+    <span class="lightbox-spinner"></span>
+  </div>
+
+    <div class="js-lightbox-inner-wrap" id="lightbox-inner-wrap">
+      <div class="js-img-wrap" id="lightbox-img-wrap">
+        
+  <div class="lightbox-extra control prev js-control js-prev">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="60" height="60" viewBox="0 0 60 60" xml:space="preserve">
+      <circle class="lightbox-icon-bg" cx="30" cy="30" r="30"></circle>
+      <path class="lightbox-icon-arrow" d="M36.8,36.4L30.3,30l6.5-6.4l-3.5-3.4l-10,9.8l10,9.8L36.8,36.4z"></path>
+    </svg>
+  </div>
+
+        
+  <div class="lightbox-extra control next js-control js-next">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="60" height="60" viewBox="0 0 60 60" xml:space="preserve">
+      <circle class="lightbox-icon-bg" cx="30" cy="30" r="30"></circle>
+      <path class="lightbox-icon-arrow" d="M24.2,23.5l6.6,6.5l-6.6,6.5l3.6,3.5L37.8,30l-10.1-9.9L24.2,23.5z"></path>
+    </svg>
+  </div>
+
+        
+  <div class="lightbox-extra control close js-control js-close">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" fill="#000">
+      <circle class="lightbox-icon-bg" cx="50" cy="50" r="47.5"></circle>
+      <polygon class="lightbox-icon-close" points="64.5,39.8 60.2,35.5 50,45.7 39.8,35.5 35.5,39.8 45.7,50 35.5,60.2 39.8,64.5 50,54.3 60.2,64.5 64.5,60.2 54.3,50"></polygon>
+    </svg>
+  </div>
+
+        <div class="lightbox-contents js-contents"><div data-slide-id="5" class="js-slide offscreen"><div class="js-slide-content lightbox-content hidden">
+        <div class="grid__image-wrapper">
+          <img src="./4_files/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_600.jpg?h=396951cb74df7f4a43d7212a6f403b9a 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1200.jpg?h=19f2a95c3acc4656a505a3e1778862b3 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/5302d986-777c-49d2-96f5-6d6f54049b23_rw_1920.jpg?h=f9dc3fdb618ca2e7216a92894a11ec08 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </div></div></div></div><div data-slide-id="3" class="js-slide"><div class="js-slide-content lightbox-content zoomable zoomable-y hidden">
+        <div class="grid__image-wrapper">
+          <img src="./4_files/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_600.jpg?h=5e87ac6844fd1a018dae6a4dad1fbd7c 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1200.jpg?h=4958fc0de009afd9dcc82fd3f2147019 1200w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_1920.jpg?h=772e2a9adb9392e1344d8e11f27dd1e2 1920w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/fa12428c-6bab-4d02-a8bd-abafccd68714_rw_3840.jpg?h=f4b9f4b1bea92d41a5ab200e6a0f897a 3840w," sizes="(max-width: 3840px) 100vw, 3840px">
+        <div>
+      </div></div></div></div><div data-slide-id="8" class="js-slide offscreen"><div class="js-slide-content lightbox-content hidden">
+        <div class="grid__image-wrapper">
+          <img src="./4_files/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_600.jpg?h=ab6e40859f491909fcaf5a71e2dfa1f0 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1200.jpg?h=3946e4b3dc2ca8c37e3c31afef5d33d7 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/cde67353-9aa9-4e67-9720-8916866857fa_rw_1920.jpg?h=db3822124c78c4c5422aaf67925a4707 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </div></div></div></div><div data-slide-id="4" class="js-slide" data-slide-is-active="true"><div class="js-slide-content lightbox-content zoomable zoomable-y">
+        <div class="grid__image-wrapper">
+          <img src="./4_files/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg" srcset="https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_600.jpg?h=17920a9f158b4388d4168825c0f307d8 600w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1200.jpg?h=12abbadcdb563f6340e5ac3624dc5439 1200w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/add04ad5a34f3e191c32e16c8be1ac83/494218e0-dcd9-424a-9ad1-eef7c6a366f1_rw_1920.jpg?h=ab8af5d0d190ccfdf5e754d8ef38807e 1920w," sizes="(max-width: 1920px) 100vw, 1920px">
+        <div>
+      </div></div></div></div></div>
+      </div>
+    </div>
+  </div>
+
+<div class="crt-wrapper"></div><div class="aadvantage-wrapper"></div></body></html>
