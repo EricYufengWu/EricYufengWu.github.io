@@ -31,6 +31,6 @@ $(document).ready(function(){
     if($("#wrapfabtest").height() > 0) {
         
     } else {
-        alert('Please Turn off your Adblocker, as it might prevent some content of this page to show up. I promise that there\'	s no Ads here :P');
+        alert('Adblockers might prevent some content from showing up :P');
     }
 });
