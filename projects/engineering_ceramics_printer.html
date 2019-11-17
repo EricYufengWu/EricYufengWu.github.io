@@ -65,7 +65,31 @@
 	
 		<div class="container">
 			<h3>Latest Update</h3>
-			<p>After two weeks of calibration, clay preparation, and electronics debugging, we finally made our first successful print! The extruder is working consistently and the stepper motors are interpreting G-code fairly accurately. While this is a great start, we still have a lot of improvements to make: finding a more suitable nozzle, securing the stepper-motor belt, improving the calibration process, etc.</p>
+			<p class="main_content">After our first successful prints, I made some changes to the original design to improve the structural integrity and look of the printer:</p>
+			<p class="tab">--Fixturing method for the center black cylinder</p>
+			<p class="tab">--New locking structure for the timing belts at the bottom</p>
+			<p class="tab">--New fixturing methods for the linear bearings</p>
+			<p class="tab">--Replaced some of the MDF parts to be Baltic Birch Plywood</p>
+			<p class="tab">--Wire Management</p>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/comparison_1.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/comparison_2.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+				</div>
+			</div>
+			<p class="img_caption">Open-source design vs. our printer after improvements</p>
+			<br>
+			<p class="main_content">As we continue testing and improving the printer, we start to get better results. Here are some images and videos of our latest print tests.</p>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage2_working_1.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/printer_2.gif" onclick="openModal();currentSlide(10)" class="hover-shadow">
+				</div>
+			</div>
 		</div>
 	
 
@@ -73,20 +97,7 @@
  		<!-- Image Gallery -->
 		<div class="container">		
 			<!-- Images used to open the lightbox -->
-			<div class="row_lightbox">
-				<div class="column_lightbox">
-					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" onclick="openModal();currentSlide(1)" class="hover-shadow">
-				</div>
-				<div class="column_lightbox">
-					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" onclick="openModal();currentSlide(2)" class="hover-shadow">
-				</div>
-				<div class="column_lightbox">
-					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" onclick="openModal();currentSlide(3)" class="hover-shadow">
-				</div>
-				<div class="column_lightbox">
-					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" onclick="openModal();currentSlide(4)" class="hover-shadow">
-				</div>
-			</div>
+			
 
 			<!-- The Modal/Lightbox -->
 			<div id="myModal" class="modal">
@@ -122,6 +133,22 @@
 						<div class="numbertext">6 / 6</div>
 						<img src="/documents/projects/engineering_ceramics_printer/electronics_1.jpeg">
 					</div>
+					
+					<div class="mySlides">
+						<img src="/documents/projects/engineering_ceramics_printer/comparison_1.JPG">
+					</div>
+					
+					<div class="mySlides">
+						<img src="/documents/projects/engineering_ceramics_printer/comparison_2.jpg">
+					</div>
+					
+					<div class="mySlides">
+						<img src="/documents/projects/engineering_ceramics_printer/stage2_working_1.jpg">
+					</div>
+					
+					<div class="mySlides">
+						<img src="/documents/projects/engineering_ceramics_printer/printer_2.gif">
+					</div>
 
 					<!-- Next/previous controls -->
 					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -134,8 +161,7 @@
 
 				</div>
 			</div>
-			<p class="img_caption">Printer worked for the first time. 09-10-2019</p>
-			<br>
+			
 		</div>	
 
 
@@ -156,6 +182,28 @@
 			<p>After finishing the physical build with Floor, I set up the RAMPS1.4 board, plugged in all the wires, and configured Marlin to be used on the printer. This is the first custom-made 3D printer I've built, so it took me a while to figure out how to edit the preferences in the Marlin firmware. I also used a potentiometer to "trick" the temperature sensor. After all the firmware configuration is complete, I designed a simple base plate to organize the power adapter, the board, and the LCD screen (shown in final setup).</p>
 			<div class="single"><img src="/documents/projects/engineering_ceramics_printer/electronics_1.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
 			<p class="img_caption">Printer firmware configuration (Marlin).</p>
+		</div>
+		
+		<div class="container">
+			<h3>3. First Print</h3>
+			<p class = "light">September 12</p>
+			<p>After two weeks of calibration, clay preparation, and electronics debugging, we finally made our first successful print! The extruder is working consistently and the stepper motors are interpreting G-code fairly accurately. While this is a great start, we still have a lot of improvements to make: finding a more suitable nozzle, securing the stepper-motor belt, improving the calibration process, etc.</p>
+			<div class="row_lightbox">
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_1.JPEG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_2.JPEG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_3.JPEG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column_lightbox">
+					<img src="/documents/projects/engineering_ceramics_printer/stage1_working_4.JPEG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
+			<p class="img_caption">Printer worked for the first time. 09-10-2019</p>
+			<br>
 		</div>
 		
 		
