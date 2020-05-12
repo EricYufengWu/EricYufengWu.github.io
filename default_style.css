@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica;
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+p, h1, h2, h3, h4, h5 {
+  line-height: 1;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+h1 {
+  color: dimgrey;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {font-size: 24px;}
+h2.dotline {border-bottom: 2px dotted;}
+
+h3 {font-size: 20px;}
+
+h4 {font-size: 18px;}
+
+p {
+  line-height:1.5;
+  font-size:18px;
+}
+p.center{text-align:center;}
+
+a {
+  color: dimgrey;
+  font-size: 24px;
+}
+
+.highlight {
+  text-decoration: underline;
+  font-weight:bold;
+}
+
