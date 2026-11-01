@@ -1,0 +1,132 @@
+[
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "September 2012",
+    "after": "September 2019"
+  },
+  {
+    "file": "site/work/robotics/trinity-robot-2018.html",
+    "before": "2019 Pacbot Competition",
+    "after": "2019 Trinity Firefighter Robot"
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "30cm x 42cm",
+    "after": "30mm x 42mm"
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "90cm x 84cm",
+    "after": "90mm x 84mm"
+  },
+  {
+    "file": "site/work/class-projects/cm4-carrier-board.html",
+    "before": " This makes it very easy to ",
+    "after": ""
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h1-mini.html",
+    "before": "<p class=\"paragraph-main\">One of the biggest improvements I made on H2 compared to <a href=\"../../work/robotics/legs-hexapod-h1.html\" class=\"inline-link\">Version H1</a> is that I designed a hexagon-shape PCB that consists of a servo driver (based on Adafruit&#x27;s PCA9685 driver), power switches, battery ports, and pin headers to connect to the Adafruit Feather Hazzah, an IoT-ready development board I have been using since some of my previous prototypes.<br></p>",
+    "after": ""
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "Made during MakeHarvard 2020, this project features 3 IoT robot arms",
+    "after": "Made during MakeHarvard 2019, this project features 3 IoT robot arms"
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": "that makes it compatible with the miniature air pump",
+    "after": "that makes it incompatible with the miniature air pump"
+  },
+  {
+    "file": "site/work/class-projects/me84-qbot.html",
+    "before": "<p>This is a robot car that runs commands as directed QR codes. The structures are fabricated by Eric Wu (me) with laser-cutter and 3D-printers, the UART communication was done by Jeremy Kanovsky, and Casey Owen was in charge of setting up the LEDs.<br></p>\n      <p>This is a robot car that runs commands as directed QR codes. The structures are fabricated by Eric Wu (me) with laser-cutter and 3D-printers, the UART communication was done by Jeremy Kanovsky, and Casey Owen was in charge of setting up the LEDs.<br></p>",
+    "after": "<p>This is a robot car that runs commands as directed QR codes. The structures are fabricated by Eric Wu (me) with laser-cutter and 3D-printers, the UART communication was done by Jeremy Kanovsky, and Casey Owen was in charge of setting up the LEDs.<br></p>"
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "Note: This is an ongoing project, so I&#x27;ll be frequently updating this page!",
+    "after": "Archived project"
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "Starting from July 2019, I am building",
+    "after": "Starting from July 2019, I was building"
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-prototypes.html",
+    "before": "I recently started building",
+    "after": "I started building"
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-prototypes.html",
+    "before": "This is an ongoing project, so I will be frequently updating the page.",
+    "after": "This project is archived."
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "Spring 2021 ~",
+    "after": "Spring 2021 (archived)"
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "This is an ongoing project and will be constantly delayed as my full-time job as a mechanical engineer soaks up my time and energy :). However, I will still try to make improvements to this actuator and update this page.",
+    "after": "This project is archived."
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "I am building an <strong>all-metal version</strong>",
+    "after": "I was building an <strong>all-metal version</strong>"
+  },
+  {
+    "file": "site/work/engineering-design/actuator-test-rigs.html",
+    "before": "Spring 2021 -",
+    "after": "Spring 2021 (archived)"
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": "Summer 2019 - Present",
+    "after": "Summer 2019 (archived)"
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": " I will be uploading more video documentations as soon as I can.",
+    "after": ""
+  },
+  {
+    "file": "site/research/romela/mini-q.html",
+    "before": "Two versions are in development concurrently:",
+    "after": "Two versions were in development concurrently:"
+  },
+  {
+    "file": "site/research/romela/mini-q.html",
+    "before": "Currently experimenting with various leg mechanisms.",
+    "after": "Experimented with various leg mechanisms."
+  },
+  {
+    "file": "site/research/romela/mini-q.html",
+    "before": "<div class=\"project-date\">Spring 2025<br>",
+    "after": "<div class=\"project-date\">Spring 2025 (archived)<br>"
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "As of now, I am currently working on re-designing",
+    "after": "I worked on re-designing"
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "(Paused for the moment:/)",
+    "after": "(Archived)"
+  },
+  {
+    "file": "site/work/3d-printing/silicone-3d-printer.html",
+    "before": " We hope to continue to work on this project again soon.",
+    "after": ""
+  },
+  {
+    "file": "site/work/3d-printing/silicone-3d-printer.html",
+    "before": "I&#x27;m planning to mount",
+    "after": "I planned to mount"
+  }
+]
