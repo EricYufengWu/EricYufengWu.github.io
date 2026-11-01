@@ -97,8 +97,8 @@
     <div class="main-content">
       <h6 class="project-heading">LabVIEW Interfaces for LEGO SPIKE Prime<br></h6>
       <div class="project-date">Summer 2020<br></div>
-      <p class="paragraph-main">Apart from making AI activity demos, another part of my work during my internship in Summer 2020 was to explore possible ways to visualize data to facilitate robot education for K-12 students. Suggested by my supervisor <a href="https://engineering.tufts.edu/people/faculty/chris-rogers" target="_blank" class="inline-link">Chris Rogers</a>, who has always been a passionate LabVIEW advocate and a LabVIEW guru, I decided to give the software a try. By the end of the summer, I came up with a couple of interesting interfaces that helped visualizes sensor data, machine learning training progress, and various other information regarding LEGO SPIKE Prime. My finest (and therefore the proudest) creation among them is the <a href="#finest" class="inline-link">SPIKE x Scikit-learn</a> interface.<br></p>
-      <p class="paragraph-main">Most of the LabVIEW VIs consist of various python nodes and event structures which listens to user&#x27;s action on the front panel. <br></p>
+      <p class="paragraph-main">Apart from making AI activity demos, another part of my work during my internship in Summer 2020 was to explore possible ways to visualize data to facilitate robot education for K-12 students. Suggested by my supervisor <a href="https://engineering.tufts.edu/people/faculty/chris-rogers" target="_blank" class="inline-link">Chris Rogers</a>, who has always been a passionate LabVIEW advocate and a LabVIEW guru, I decided to give the software a try. By the end of the summer, I came up with a couple of interesting interfaces that helped visualize sensor data, machine learning training progress, and various other information regarding LEGO SPIKE Prime. My finest (and therefore the proudest) creation among them is the <a href="#finest" class="inline-link">SPIKE x Scikit-learn</a> interface.<br></p>
+      <p class="paragraph-main">Most of the LabVIEW VIs consist of various python nodes and event structures which listen to user&#x27;s action on the front panel. <br></p>
       <h6>SPIKE Prime Communication Dashboard</h6>
       <p>This is a simple dashboard made to test out communication between the LEGO SPIKE hub and my computer over Bluetooth/USB serial. <br></p>
       <div class="single-image-lightbox">
@@ -131,7 +131,7 @@
         </div>
       </div>
       <h6>SPIKE Prime Digit Recognition</h6>
-      <p>This is a software rework from my <a href="../../research/lego-x-ai/lego-spike-ai-demos.html" class="inline-link">digit recognition demo</a>. Compared to python outputs in the command prompt, LabVIEW can easily display more information that are useful for anyone to understand the machine learning algorithm visually.<br></p>
+      <p>This is a software rework from my <a href="../../research/lego-x-ai/lego-spike-ai-demos.html" class="inline-link">digit recognition demo</a>. Compared to python outputs in the command prompt, LabVIEW can easily display more information that is useful for anyone to understand the machine learning algorithm visually.<br></p>
       <div class="single-image-lightbox">
         <a href="#" class="w-inline-block w-lightbox"><img src="../../images/research_lb_digits.JPG" loading="lazy" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728.0000610351562px, 822.0000610351562px" srcset="../../images/research_lb_digits-p-500.jpeg 500w, ../../images/research_lb_digits-p-800.jpeg 800w, ../../images/research_lb_digits.JPG 822w" class="grid-image">
           <script type="application/json" class="w-json">{
@@ -173,14 +173,14 @@
         </a>
       </div>
       <p>As shown in the video below, I&#x27;m using the interface to train a smart baton to recognize gestures. The interface will direct users to connect to the SPIKE hub via Bluetooth serial, prompt users to record training instances, and train the model using the support vector machines function available in sklearn. The model information and learning curve will also be available to teach users the concept of Support Vector Machines.<br></p>
-      <p>This hides the actual code in the back stage, so that students without much prior experience wouldn’t feel intimidated, and can get to learn the general concepts of all the algorithms, which is always more fun and less scary then the actual code.<br></p>
+      <p>This hides the actual code in the back stage, so that students without much prior experience wouldn’t feel intimidated, and can get to learn the general concepts of all the algorithms, which is always more fun and less scary than the actual code.<br></p>
       <div class="single-image-lightbox">
         <div class="single-cropped">
           <div class="youtube w-embed w-iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/gnBGqtDq-XQ?start=259" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
         </div>
       </div>
     </div>
-    <p>To make the UI even more easy to use for people unfamiliar with machine learning and scikit-learn, I also created a “help” section to help people understand the interface and guide them through the workflow. If you watched the following video and are still confused about what this actually do, <a href="https://sites.google.com/tuftsceeo.org/spike-sklearn" target="_blank" class="inline-link">this page </a>is here for you!<br></p>
+    <p>To make the UI even more easy to use for people unfamiliar with machine learning and scikit-learn, I also created a “help” section to help people understand the interface and guide them through the workflow. If you watched the following video and are still confused about what this actually does, <a href="https://sites.google.com/tuftsceeo.org/spike-sklearn" target="_blank" class="inline-link">this page </a>is here for you!<br></p>
     <p>By developing this integration, my hope is to make teachers comfortable bringing similar activities into a classroom, and also to make sure that younger students are comfortable exploring this interface on their own.<br></p>
     <div class="previous-next w-clearfix">
       <a href="../../research/lego-x-ai/lego-spike-ai-demos.html" class="prev-button w-button">&lt;&lt; Prev: LEGO SPIKE AI Demos</a>

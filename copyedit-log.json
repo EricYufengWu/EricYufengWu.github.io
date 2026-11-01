@@ -1,0 +1,986 @@
+[
+  {
+    "file": "site/art-design/art-and-design.html",
+    "before": "spent sometime",
+    "after": "spent some time",
+    "occurrences": 1
+  },
+  {
+    "file": "site/art-design/art-and-design.html",
+    "before": "please checkout",
+    "after": "please check out",
+    "occurrences": 1
+  },
+  {
+    "file": "site/art-design/art-and-design.html",
+    "before": "spent sometime",
+    "after": "spent some time",
+    "occurrences": 1
+  },
+  {
+    "file": "site/art-design/art-and-design.html",
+    "before": "Calligrapby",
+    "after": "Calligraphy",
+    "occurrences": 1
+  },
+  {
+    "file": "site/art-design/art-and-design.html",
+    "before": "please checkout",
+    "after": "please check out",
+    "occurrences": 1
+  },
+  {
+    "file": "site/cardistry.html",
+    "before": "Youtube",
+    "after": "YouTube",
+    "occurrences": 1
+  },
+  {
+    "file": "site/cardistry.html",
+    "before": "Youtube",
+    "after": "YouTube",
+    "occurrences": 1
+  },
+  {
+    "file": "site/index.html",
+    "before": "a M.S.",
+    "after": "an M.S.",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/labview-interfaces.html",
+    "before": "helped visualizes",
+    "after": "helped visualize",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/labview-interfaces.html",
+    "before": "structures which listens",
+    "after": "structures which listen",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/labview-interfaces.html",
+    "before": "information that are useful",
+    "after": "information that is useful",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/labview-interfaces.html",
+    "before": "less scary then",
+    "after": "less scary than",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/labview-interfaces.html",
+    "before": "what this actually do",
+    "after": "what this actually does",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/lego-spike-ai-demos.html",
+    "before": "large amount of data",
+    "after": "large amounts of data",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/lego-spike-ai-demos.html",
+    "before": "libraries that exists",
+    "after": "libraries that exist",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/lego-spike-ai-demos.html",
+    "before": "demo code were written",
+    "after": "demo code was written",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/lego-x-ai/lego-spike-ai-demos.html",
+    "before": "a curious LEGO enthusiasts",
+    "after": "a curious LEGO enthusiast",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/research.html",
+    "before": "activities that uses",
+    "after": "activities that use",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": "valves I purchased has",
+    "after": "valves I purchased have",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": "Before the pandemic forces",
+    "after": "Before the pandemic forced",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/fluidic-control-board-adaptation.html",
+    "before": "4 open-loop controlled channel",
+    "after": "4 open-loop controlled channels",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/silicone-soft-gripper.html",
+    "before": "Feburary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/silicone-soft-gripper.html",
+    "before": "its compliant nature of casted silicone",
+    "after": "the compliant nature of cast silicone",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/silicone-soft-gripper.html",
+    "before": "The griper",
+    "after": "The gripper",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/silicone-soft-gripper.html",
+    "before": "silicone ruber",
+    "after": "silicone rubber",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/3d-printing.html",
+    "before": "printers that uses",
+    "after": "printers that use",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/3d-printing.html",
+    "before": "extruderfor",
+    "after": "extruder for",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "custom-build FDM",
+    "after": "custom-built FDM",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "we made re-designed alot",
+    "after": "we redesigned a lot",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "structure (base &amp; top) were machined",
+    "after": "structure (base &amp; top) was machined",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "forced to put on a hold",
+    "after": "forced to be put on hold",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/silicone-3d-printer.html",
+    "before": "following videos shows",
+    "after": "following videos show",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/silicone-3d-printer.html",
+    "before": "For each scenarios",
+    "after": "For each scenario",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/silicone-3d-printer.html",
+    "before": "forced to put on hold",
+    "after": "forced to be put on hold",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/six-foot-tall.html",
+    "before": "will be split between 3 identical axis",
+    "after": "will be split between 3 identical axes",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/six-foot-tall.html",
+    "before": "satisfy out requirements",
+    "after": "satisfy our requirements",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/six-foot-tall.html",
+    "before": "For each scenarios",
+    "after": "For each scenario",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/six-foot-tall.html",
+    "before": "aluminum. after a few",
+    "after": "aluminum. After a few",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/class-projects.html",
+    "before": "I wrote an puzzle",
+    "after": "I wrote a puzzle",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/class-projects.html",
+    "before": "PlayingRobot",
+    "after": "Playing Robot",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/class-projects.html",
+    "before": "My Professor want",
+    "after": "My Professor wants",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/class-projects.html",
+    "before": "puuled",
+    "after": "pulled",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/cm4-carrier-board.html",
+    "before": "to tryout",
+    "after": "to try out",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/crawling-robot.html",
+    "before": "each components",
+    "after": "each component",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/doodle-jump-robot.html",
+    "before": "distance. a 20kg",
+    "after": "distance. A 20kg",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/inverse-kinematics-calculator.html",
+    "before": "and then uses a Raspberry",
+    "after": "and then use a Raspberry",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/mae263c-final-project.html",
+    "before": "programmed ahigh-performance",
+    "after": "programmed a high-performance",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-analog-magnetic-clock.html",
+    "before": "I payed extra attention",
+    "after": "I paid extra attention",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-delta-drawing-robot.html",
+    "before": "previous project -",
+    "after": "previous projects -",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-delta-drawing-robot.html",
+    "before": "end effector which also 3D-printed",
+    "after": "end effector which is also 3D-printed",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-delta-drawing-robot.html",
+    "before": "taping threads",
+    "after": "tapping threads",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-delta-drawing-robot.html",
+    "before": "a symbolic solutions",
+    "after": "a symbolic solution",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me134-delta-drawing-robot.html",
+    "before": "Checkout the",
+    "after": "Check out the",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "towards a physics classrooms",
+    "after": "towards a physics classroom",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "looking to incorporating",
+    "after": "looking to incorporate",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "time and combine our materials",
+    "after": "time and combined our materials",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "3 hands-on lab experience",
+    "after": "3 hands-on lab experiences",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "sensors communicates",
+    "after": "sensors communicate",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "students who has never",
+    "after": "students who have never",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "(or are currently taking)",
+    "after": "(or is currently taking)",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "Each participants are asked",
+    "after": "Each participant is asked",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "list of activity",
+    "after": "list of activities",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-dynamics-kit.html",
+    "before": "ARconfiguration",
+    "after": "AR configuration",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me140-space-drink-sketch.html",
+    "before": "Feburary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-abstract-coconut.html",
+    "before": "360, i was able",
+    "after": "360, I was able",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-animated-sculpture.html",
+    "before": "light source get reflected",
+    "after": "light source gets reflected",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-animated-sculpture.html",
+    "before": "patterns at it travels",
+    "after": "patterns as it travels",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-autodrive.html",
+    "before": "camera draw lines",
+    "after": "camera draws lines",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-autodrive.html",
+    "before": "two lines that defines",
+    "after": "two lines that define",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-autodrive.html",
+    "before": "looked the average value",
+    "after": "looked at the average value",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-iot-sculpture.html",
+    "before": "One of of my",
+    "after": "One of my",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-iot-sculpture.html",
+    "before": "ME-084 Robotics class project",
+    "after": "ME-084 Robotics class projects",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-mini-jumbo.html",
+    "before": "and sends signals to a pyboard",
+    "after": "and sent signals to a pyboard",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/me84-mini-jumbo.html",
+    "before": "flap her ears a sign",
+    "after": "flap her ears as a sign",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/minix.html",
+    "before": "The is a project",
+    "after": "This is a project",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/minix.html",
+    "before": "Pico was design to be",
+    "after": "Pico was designed to be",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/obstacle-hexapod-robot.html",
+    "before": "obstacles (show below)",
+    "after": "obstacles (shown below)",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/obstacle-hexapod-robot.html",
+    "before": "a 18-DOF",
+    "after": "an 18-DOF",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/obstacle-hexapod-robot.html",
+    "before": "feet. stablizing",
+    "after": "feet, stabilizing",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/oscilloscope-puzzle.html",
+    "before": "Febrary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/oscilloscope-puzzle.html",
+    "before": "this project gives",
+    "after": "This project gives",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/pio-exploration.html",
+    "before": "asked to used",
+    "after": "asked to use",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/pio-exploration.html",
+    "before": "signal and drives",
+    "after": "signal and drive",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/space-printer.html",
+    "before": "research project lead by",
+    "after": "research project led by",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/space-printer.html",
+    "before": "embedded in its body. as",
+    "after": "embedded in its body. As",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/space-printer.html",
+    "before": "a prober tension",
+    "after": "a proper tension",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/tinycar.html",
+    "before": "motors, which gets",
+    "after": "motors, which get",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/tinycar.html",
+    "before": "to tryout",
+    "after": "to try out",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/acro-mils-add-on-box.html",
+    "before": "each drawers",
+    "after": "each drawer",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/acro-mils-add-on-box.html",
+    "before": "16 spaces and are laser-cut",
+    "after": "16 spaces and is laser-cut",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/acro-mils-add-on-box.html",
+    "before": "I began be sketching",
+    "after": "I began by sketching",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/acro-mils-add-on-box.html",
+    "before": "will help keeping",
+    "after": "will help keep",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/actuator-test-rigs.html",
+    "before": "mounding backet",
+    "after": "mounting bracket",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/custom-lego-motor-driver.html",
+    "before": "developed to to control",
+    "after": "developed to control",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/custom-lego-motor-driver.html",
+    "before": "The designed was done",
+    "after": "The design was done",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/engineering-design.html",
+    "before": "Mechtronics",
+    "after": "Mechatronics",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/engineering-design.html",
+    "before": "spent sometime",
+    "after": "spent some time",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/engineering-design.html",
+    "before": "Checkout my",
+    "after": "Check out my",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/heat-set-insert-rig.html",
+    "before": "falling own on its own",
+    "after": "falling down on its own",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "who use to rely",
+    "after": "who used to rely",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "I uses 3D-printed",
+    "after": "I use 3D-printed",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "current system matches",
+    "after": "current systems match",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "boxes with my to competitions",
+    "after": "boxes with me to competitions",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "I finally settles down",
+    "after": "I finally settled down",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/my-hardware-organization.html",
+    "before": "boxes that comes",
+    "after": "boxes that come",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "will be constantly being delayed",
+    "after": "will be constantly delayed",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "oversea manufacturers",
+    "after": "overseas manufacturers",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "a outrunner",
+    "after": "an outrunner",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "groves of the stator",
+    "after": "grooves of the stator",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/orbitdrive-actuator.html",
+    "before": "bearing at the center which locate",
+    "after": "bearing at the center which locates",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/engineering-design/the-mighty-board.html",
+    "before": "In addition, The modularity",
+    "after": "In addition, the modularity",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-ev3-tutorials.html",
+    "before": "series of tutorial on",
+    "after": "series of tutorials on",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-ev3-tutorials.html",
+    "before": "among the serie",
+    "after": "among the series",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-related-projects.html",
+    "before": "Most of my work there are",
+    "after": "Most of my work there is",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-roller-coaster-iot-upgrade.html",
+    "before": "ev3dev, an system",
+    "after": "ev3dev, a system",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-roller-coaster-iot-upgrade.html",
+    "before": "other LEGO product",
+    "after": "other LEGO products",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-roller-coaster-iot-upgrade.html",
+    "before": "plenty of rooms for improvements",
+    "after": "plenty of room for improvements",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-sec-at-tufts.html",
+    "before": "model features is a model",
+    "after": "model is a model",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-sec-at-tufts.html",
+    "before": "and It also got",
+    "after": "and it also got",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-sec-at-tufts.html",
+    "before": "fornt cover",
+    "after": "front cover",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "there were handed",
+    "after": "they were handed",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "helped promoting",
+    "after": "helped promote",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "Instructible",
+    "after": "Instructables",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "attachments consist of",
+    "after": "attachments consisting of",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "Pybord",
+    "after": "Pyboard",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "first backpack I design was",
+    "after": "first backpack I designed was",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/research-2/lego-spike-prime-backpacks.html",
+    "before": "on ipad",
+    "after": "on iPad",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h1-mini.html",
+    "before": "PCB that consists a servo",
+    "after": "PCB that consists of a servo",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h1.html",
+    "before": "Prusia",
+    "after": "Prusa",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h1.html",
+    "before": "Fore wire management",
+    "after": "For wire management",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h1.html",
+    "before": "a extended pcb",
+    "after": "an extended PCB",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h2.html",
+    "before": "improvents",
+    "after": "improvements",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-h2.html",
+    "before": "PCB that consists a servo",
+    "after": "PCB that consists of a servo",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-halloween-edition.html",
+    "before": "my ipad",
+    "after": "my iPad",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-halloween-edition.html",
+    "before": "makerspase",
+    "after": "makerspace",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-halloween-edition.html",
+    "before": "yellw",
+    "after": "yellow",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-halloween-edition.html",
+    "before": "which iconnects",
+    "after": "which connects",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-halloween-edition.html",
+    "before": "easiy",
+    "after": "easily",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-prototypes.html",
+    "before": "upside-down doe leave",
+    "after": "upside-down to leave",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/legs-hexapod-prototypes.html",
+    "before": "I modifird",
+    "after": "I modified",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-banned-from-vegas.html",
+    "before": "Febuary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-banned-from-vegas.html",
+    "before": "Checkout our",
+    "after": "Check out our",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-banned-from-vegas.html",
+    "before": "identify the suite and number",
+    "after": "identify the suit and number",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-banned-from-vegas.html",
+    "before": "biggest challenge of the design",
+    "after": "biggest challenges of the design",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-banned-from-vegas.html",
+    "before": "truely",
+    "after": "truly",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "Febuary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "Feburary",
+    "after": "February",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "by myself ad 3 other",
+    "after": "by myself and 3 other",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "Everything about it, from ideation to the final product, were",
+    "after": "Everything about it, from ideation to the final product, was",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/other-dume-iot.html",
+    "before": "The first version were",
+    "after": "The first version was",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/pacbot-2019.html",
+    "before": "first time our club enters",
+    "after": "first time our club entered",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/pacbot-2019.html",
+    "before": "space that are next",
+    "after": "space that is next",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/q8bot.html",
+    "before": "because if its versatility",
+    "after": "because of its versatility",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "All of my previous prototype.",
+    "after": "All of my previous prototypes.",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "maze and put out fires",
+    "after": "maze and puts out fires",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "maze and put out fires",
+    "after": "maze and puts out fires",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/robotics.html",
+    "before": "neither walk or drive",
+    "after": "neither walk nor drive",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/trinity-robot-2018.html",
+    "before": "helped built",
+    "after": "helped build",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/trinity-robot-2019.html",
+    "before": "I lead group of 2",
+    "after": "I led a group of 2",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/robotics/trinity-robot-2019.html",
+    "before": "all the design, combined",
+    "after": "all the designs, combined",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/3d-printing/delta-ceramics-3d-printer.html",
+    "before": "improving it&#x27;s performance",
+    "after": "improving its performance",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/cm4-carrier-board.html",
+    "before": "on it&#x27;s four corners",
+    "after": "on its four corners",
+    "occurrences": 1
+  },
+  {
+    "file": "site/work/class-projects/crawling-robot.html",
+    "before": "segments of it&#x27;s body",
+    "after": "segments of its body",
+    "occurrences": 1
+  },
+  {
+    "file": "site/research/soft-robotics/syringe-control-system.html",
+    "before": "school&#x27;s makerspace continue",
+    "after": "school&#x27;s makerspace to continue",
+    "occurrences": 1
+  }
+]

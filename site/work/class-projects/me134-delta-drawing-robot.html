@@ -193,7 +193,7 @@
         </div>
       </div>
       <h6>The Design</h6>
-      <p>My partner and I broke down the design tasks, and I was in charge of designing the parallel arm structures and the end effector. I salvaged the RC rod ends from one of my previous project - they act like universal joints with a limited swivel angle of about 25 degrees. Two rod ends were joined by a threaded steel rod to form a lower linkage, and I ended up using the precut 50mm MakerBeams for the upper linkage. I joined the arm segments with 3D-printed adapters, each has built-in slots for embedded M3 nuts to secure the rod ends.<br></p>
+      <p>My partner and I broke down the design tasks, and I was in charge of designing the parallel arm structures and the end effector. I salvaged the RC rod ends from one of my previous projects - they act like universal joints with a limited swivel angle of about 25 degrees. Two rod ends were joined by a threaded steel rod to form a lower linkage, and I ended up using the precut 50mm MakerBeams for the upper linkage. I joined the arm segments with 3D-printed adapters, each has built-in slots for embedded M3 nuts to secure the rod ends.<br></p>
       <div class="w-row">
         <div class="grid-main-content w-col w-col-6 w-col-small-6">
           <a href="#" class="lightbox-cropped w-inline-block w-lightbox"><img src="../../images/134_delta_final2.jpg" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 767px) 48vw, (max-width: 991px) 374px, 480px" srcset="../../images/134_delta_final2-p-800.jpeg 800w, ../../images/134_delta_final2-p-1600.jpeg 1600w, ../../images/134_delta_final2-p-2000.jpeg 2000w, ../../images/134_delta_final2-p-2600.jpeg 2600w, ../../images/134_delta_final2-p-3200.jpeg 3200w, ../../images/134_delta_final2.jpg 4032w" alt="" class="grid-image cropimg">
@@ -243,7 +243,7 @@
         </div>
       </div>
       <p class="image-description">Delta Arms Movement Test<br></p>
-      <p>As for the end effector which also 3D-printed, I designed a simple vertical tube structure at its center to house various models of Micron® Pens. I implemented a spring-loaded system with rubber bands to add some mechanical compliance to the system. The end effector also has slots for embedded nuts similar to the beam adapters.<br>Click <a href="https://grabcad.com/library/delta-drawing-robot-1" target="_blank" class="inline-link">here</a> to view the CAD design in GrabCAD. The entire model was made in collaboration with my partner, who designed the outer framework and the servo clamping mechanism.<br></p>
+      <p>As for the end effector which is also 3D-printed, I designed a simple vertical tube structure at its center to house various models of Micron® Pens. I implemented a spring-loaded system with rubber bands to add some mechanical compliance to the system. The end effector also has slots for embedded nuts similar to the beam adapters.<br>Click <a href="https://grabcad.com/library/delta-drawing-robot-1" target="_blank" class="inline-link">here</a> to view the CAD design in GrabCAD. The entire model was made in collaboration with my partner, who designed the outer framework and the servo clamping mechanism.<br></p>
       <div class="single-image-lightbox">
         <a href="#" class="lightbox-cropped w-inline-block w-lightbox"><img src="../../images/134_delta_render1.JPG" loading="lazy" sizes="(max-width: 767px) 20px, (max-width: 991px) 728px, 564px" srcset="../../images/134_delta_render1-p-800.jpeg 800w, ../../images/134_delta_render1-p-1600.jpeg 1600w, ../../images/134_delta_render1-p-2000.jpeg 2000w, ../../images/134_delta_render1-p-2600.jpeg 2600w, ../../images/134_delta_render1-p-3200.jpeg 3200w, ../../images/134_delta_render1.JPG 3840w" alt="" class="grid-image cropimg">
           <script type="application/json" class="w-json">{
@@ -263,7 +263,7 @@
 }</script>
         </a>
       </div>
-      <p>To ensure that the end effector is parallel to the workspace, I built a fixture to help align the rod end assemblies to the exact same length of 248mm. I then secured the threads with Loctite® Threadlocker to prevent the connections from loosening. For the upper linkages, I ended up taping threads to the MakerBeams and secured them to the brackets which then get connected to the servos.<br></p>
+      <p>To ensure that the end effector is parallel to the workspace, I built a fixture to help align the rod end assemblies to the exact same length of 248mm. I then secured the threads with Loctite® Threadlocker to prevent the connections from loosening. For the upper linkages, I ended up tapping threads to the MakerBeams and secured them to the brackets which then get connected to the servos.<br></p>
       <div class="w-row">
         <div class="grid-main-content w-col w-col-6 w-col-small-6">
           <a href="#" class="lightbox-cropped w-inline-block w-lightbox"><img src="../../images/134_delta_lower1.jpeg" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 767px) 48vw, (max-width: 991px) 374px, 480px" srcset="../../images/134_delta_lower1-p-500.jpeg 500w, ../../images/134_delta_lower1-p-800.jpeg 800w, ../../images/134_delta_lower1-p-1080.jpeg 1080w, ../../images/134_delta_lower1-p-1600.jpeg 1600w, ../../images/134_delta_lower1-p-2000.jpeg 2000w, ../../images/134_delta_lower1-p-2600.jpeg 2600w, ../../images/134_delta_lower1-p-3200.jpeg 3200w, ../../images/134_delta_lower1.jpeg 4032w" alt="" class="grid-image cropimg">
@@ -346,7 +346,7 @@
       </div>
       <p class="image-description">Fabrication and assembly of the delta linkages<br></p>
       <h6>The Inverse Kinematics</h6>
-      <p>Below is my derivation of the inverse kinematics model of the system. I took heavy inspiration of <a href="http://hypertriangle.com/~alex/delta-robot-tutorial/" target="_blank" class="inline-link"> this website</a>, but decided to try to derive the equations myself again to gain a better understanding of the concepts. After the calculations, I validated my calculations using a simplified SolidWorks model; then I used MATLAB to get a symbolic solutions to the system of equations, which I then copied to the Python code implemented in the onboard Raspberry Pi.<br></p>
+      <p>Below is my derivation of the inverse kinematics model of the system. I took heavy inspiration of <a href="http://hypertriangle.com/~alex/delta-robot-tutorial/" target="_blank" class="inline-link"> this website</a>, but decided to try to derive the equations myself again to gain a better understanding of the concepts. After the calculations, I validated my calculations using a simplified SolidWorks model; then I used MATLAB to get a symbolic solution to the system of equations, which I then copied to the Python code implemented in the onboard Raspberry Pi.<br></p>
       <div class="single-image-lightbox">
         <a href="#" class="w-inline-block w-lightbox"><img src="../../images/134_delta_InverseK_Page_1.jpg" loading="lazy" sizes="100vw" srcset="../../images/134_delta_InverseK_Page_1-p-500.jpeg 500w, ../../images/134_delta_InverseK_Page_1-p-800.jpeg 800w, ../../images/134_delta_InverseK_Page_1-p-1080.jpeg 1080w, ../../images/134_delta_InverseK_Page_1.jpg 1513w" alt="">
           <script type="application/json" class="w-json">{
@@ -369,7 +369,7 @@
         <div class="grid-main-content w-col w-col-6 w-col-small-6"></div>
       </div>
       <h6>Python Implementation</h6>
-      <p>I wrote two classes for the purpose of this robot: one for calculating the inverse kinematics and the other for moving the servo motors with angle commands. With a combination of the two classes, I then wrote a front end script which takes in a CSV file that contains a series of XYZ coordinates, compute the servo angles, and draw out the patterns in the workspace. Checkout the <a href="#presentation-video" class="inline-link"> presentation video</a> for the final performance of the robot!<br></p>
+      <p>I wrote two classes for the purpose of this robot: one for calculating the inverse kinematics and the other for moving the servo motors with angle commands. With a combination of the two classes, I then wrote a front end script which takes in a CSV file that contains a series of XYZ coordinates, compute the servo angles, and draw out the patterns in the workspace. Check out the <a href="#presentation-video" class="inline-link"> presentation video</a> for the final performance of the robot!<br></p>
       <p>Click here to view the complete <a href="https://github.com/EricYufengWu/ME-0134/tree/master/HW3" target="_blank" class="inline-link">code</a> on GitHub.<br></p>
       <h6>Assembly / Prototyping</h6>
       <div class="w-row">
