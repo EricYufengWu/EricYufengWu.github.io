@@ -9,7 +9,7 @@ Static migration of the November 1, 2026 Webflow export. Existing layouts, style
 - `dist/`: generated output; ignored by Git.
 - `.github/workflows/pages.yml`: builds and deploys on pushes to `main` after Pages is enabled.
 
-The original ZIP remains untouched in the parent folder. Source assets remain at exported quality. The build preserves original media referenced by the homepage and its featured project pages; other JPEG/PNG images are limited to 1920 pixels on their longest side, with JPEG quality 80. Shared assets used by featured projects also remain at full quality. Videos are not recompressed. External Webflow asset URLs are rewritten to local exported files when an unambiguous match exists.
+The original ZIP remains untouched in the parent folder. Source assets remain at exported quality. The build preserves original media referenced by the homepage and its featured project pages; other JPEG/PNG images are limited to 1440 pixels on their longest side, with JPEG quality 75. Shared assets used by featured projects also remain at full quality. Videos are not recompressed. External Webflow asset URLs are rewritten to local exported files when an unambiguous match exists.
 
 ## Build and preview
 
@@ -43,3 +43,5 @@ No Webflow backend is included: forms, search, password protection, and CMS edit
 - Run the build and inspect `migration-audit.json` after edits. Never commit generated `dist/`.
 
 The resume link missing from the Webflow ZIP was restored using the existing resume PDF in the parent portfolio folder.
+
+
