@@ -2,7 +2,7 @@
   "html_pages": 77,
   "source_files": 3041,
   "published_files": 2967,
-  "published_bytes": 967010090,
+  "published_bytes": 967010220,
   "archive_images_optimized": 1604,
   "featured_pages": [
     "index.html",
@@ -41,6 +41,7 @@
     "https://excollege.tufts.edu/teach/peer",
     "https://fonts.googleapis.com",
     "https://fonts.gstatic.com",
+    "https://formlabs.com/",
     "https://github.com/EricYufengWu",
     "https://github.com/EricYufengWu/Hexapod_H1",
     "https://github.com/EricYufengWu/ME-0134/tree/master/HW3",
@@ -153,6 +154,7 @@
     "https://www.youtube.com/embed/s9ewDXvUroA",
     "https://www.youtube.com/embed/tHv0CcR6i7s",
     "https://www.youtube.com/embed/v4oAhSDD72A",
-    "https://youtu.be/G6fMV1UPzkg"
+    "https://youtu.be/G6fMV1UPzkg",
+    "https://zerowirerobotics.com/"
   ]
 }
