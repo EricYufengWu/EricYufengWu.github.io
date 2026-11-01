@@ -43,4 +43,4 @@ All responses above have been applied to the website source. Your original comme
 - Removed explicit ongoing-project claims and open-ended “Present” dates outside Q8bot. MiNI-Q development wording is now historical; no completion dates or successful outcomes were invented. Historical design plans within the archive remain as part of the project narrative.
 - Q8bot remains ongoing.
 
-The requested Trinity heading is “2019 Trinity Firefighter Robot.” Its April 2018 date and 2018 competition description remain unchanged.
+The Trinity year was subsequently confirmed as 2018. The heading is now “2018 Trinity Firefighter Robot,” matching its April 2018 date and competition description.

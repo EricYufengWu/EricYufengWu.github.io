@@ -128,5 +128,10 @@
     "file": "site/work/3d-printing/silicone-3d-printer.html",
     "before": "I&#x27;m planning to mount",
     "after": "I planned to mount"
+  },
+  {
+    "file": "site/work/robotics/trinity-robot-2018.html",
+    "before": "2019 Trinity Firefighter Robot",
+    "after": "2018 Trinity Firefighter Robot"
   }
 ]
